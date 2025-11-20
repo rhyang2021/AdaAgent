@@ -1,0 +1,8 @@
+{"time":"2025-06-25T04:38:42.352975734+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20250625_043841-oftxw2fx/logs/debug-core.log"}
+{"time":"2025-06-25T04:38:42.57635945+08:00","level":"INFO","msg":"created new stream","id":"oftxw2fx"}
+{"time":"2025-06-25T04:38:42.576496229+08:00","level":"INFO","msg":"stream: started","id":"oftxw2fx"}
+{"time":"2025-06-25T04:38:42.576514208+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"oftxw2fx"}
+{"time":"2025-06-25T04:38:42.576539386+08:00","level":"INFO","msg":"sender: started","stream_id":"oftxw2fx"}
+{"time":"2025-06-25T04:38:42.576526967+08:00","level":"INFO","msg":"handler: started","stream_id":"oftxw2fx"}
+{"time":"2025-06-25T04:38:43.088981665+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-25T04:40:28.215359437+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}

@@ -1,0 +1,15 @@
+{"time":"2025-07-20T00:43:29.315449079+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20250720_004328-yr6qoncm/logs/debug-core.log"}
+{"time":"2025-07-20T00:43:29.538774474+08:00","level":"INFO","msg":"created new stream","id":"yr6qoncm"}
+{"time":"2025-07-20T00:43:29.538915561+08:00","level":"INFO","msg":"stream: started","id":"yr6qoncm"}
+{"time":"2025-07-20T00:43:29.538936211+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"yr6qoncm"}
+{"time":"2025-07-20T00:43:29.53895612+08:00","level":"INFO","msg":"handler: started","stream_id":"yr6qoncm"}
+{"time":"2025-07-20T00:43:29.53897074+08:00","level":"INFO","msg":"sender: started","stream_id":"yr6qoncm"}
+{"time":"2025-07-20T00:43:29.991015168+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-20T01:04:11.3520854+08:00","level":"INFO","msg":"stream: closing","id":"yr6qoncm"}
+{"time":"2025-07-20T01:04:11.352207578+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-20T01:04:11.355443468+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-20T01:04:12.896179105+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-20T01:04:13.698233755+08:00","level":"INFO","msg":"handler: closed","stream_id":"yr6qoncm"}
+{"time":"2025-07-20T01:04:13.698265234+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yr6qoncm"}
+{"time":"2025-07-20T01:04:13.698274684+08:00","level":"INFO","msg":"sender: closed","stream_id":"yr6qoncm"}
+{"time":"2025-07-20T01:04:13.69899775+08:00","level":"INFO","msg":"stream: closed","id":"yr6qoncm"}

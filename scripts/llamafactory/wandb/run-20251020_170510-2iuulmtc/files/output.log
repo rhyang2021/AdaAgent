@@ -1,0 +1,827 @@
+  1%|▉                                                                    | 50/3474 [08:16<9:17:21,  9.77s/it][INFO|trainer.py:4226] 2025-10-20 17:13:28,510 >>
+{'loss': 1.3274, 'grad_norm': 7.332747533244889, 'learning_rate': 5.747126436781609e-08, 'epoch': 0.01}
+{'loss': 1.3562, 'grad_norm': 6.9632067921897045, 'learning_rate': 1.1494252873563217e-07, 'epoch': 0.02}
+{'loss': 1.2908, 'grad_norm': 5.676697485685679, 'learning_rate': 1.7241379310344828e-07, 'epoch': 0.03}
+{'loss': 1.2833, 'grad_norm': 4.291914492918769, 'learning_rate': 2.2988505747126435e-07, 'epoch': 0.03}
+{'loss': 1.2617, 'grad_norm': 3.8659851702261983, 'learning_rate': 2.873563218390804e-07, 'epoch': 0.04}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-10-20 17:13:28,510 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 17:13:28,510 >>   Batch size = 2
+  3%|█▉                                                                  | 100/3474 [19:04<9:05:32,  9.70s/it][INFO|trainer.py:4226] 2025-10-20 17:24:15,814 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 1.1787394285202026, 'eval_runtime': 153.1689, 'eval_samples_per_second': 12.738, 'eval_steps_per_second': 0.797, 'epoch': 0.04}
+{'loss': 1.173, 'grad_norm': 2.5094518524543448, 'learning_rate': 3.4482758620689656e-07, 'epoch': 0.05}
+{'loss': 1.1408, 'grad_norm': 2.5489596550750044, 'learning_rate': 4.0229885057471266e-07, 'epoch': 0.06}
+{'loss': 1.0989, 'grad_norm': 2.0949024248438146, 'learning_rate': 4.597701149425287e-07, 'epoch': 0.07}
+{'loss': 1.0471, 'grad_norm': 1.8285110981736052, 'learning_rate': 5.172413793103448e-07, 'epoch': 0.08}
+{'loss': 1.0715, 'grad_norm': 1.7669566541097088, 'learning_rate': 5.747126436781608e-07, 'epoch': 0.09}
+[INFO|trainer.py:4228] 2025-10-20 17:24:15,814 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 17:24:15,814 >>   Batch size = 2
+  4%|██▉                                                                 | 150/3474 [30:00<9:41:27, 10.50s/it][INFO|trainer.py:4226] 2025-10-20 17:35:12,011 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.9984983801841736, 'eval_runtime': 152.9598, 'eval_samples_per_second': 12.755, 'eval_steps_per_second': 0.798, 'epoch': 0.09}
+{'loss': 1.0287, 'grad_norm': 1.7651902110269428, 'learning_rate': 6.32183908045977e-07, 'epoch': 0.09}
+{'loss': 1.0066, 'grad_norm': 1.7750827135888994, 'learning_rate': 6.896551724137931e-07, 'epoch': 0.1}
+{'loss': 0.9677, 'grad_norm': 1.7533583262916534, 'learning_rate': 7.471264367816092e-07, 'epoch': 0.11}
+{'loss': 1.0091, 'grad_norm': 1.7595961324304283, 'learning_rate': 8.045977011494253e-07, 'epoch': 0.12}
+{'loss': 1.0112, 'grad_norm': 2.052901243707028, 'learning_rate': 8.620689655172412e-07, 'epoch': 0.13}
+[INFO|trainer.py:4228] 2025-10-20 17:35:12,012 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 17:35:12,012 >>   Batch size = 2
+  6%|███▉                                                                | 200/3474 [41:06<9:22:36, 10.31s/it][INFO|trainer.py:4226] 2025-10-20 17:46:18,325 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.9455206394195557, 'eval_runtime': 153.165, 'eval_samples_per_second': 12.738, 'eval_steps_per_second': 0.797, 'epoch': 0.13}
+{'loss': 0.9766, 'grad_norm': 1.6707283026640236, 'learning_rate': 9.195402298850574e-07, 'epoch': 0.14}
+{'loss': 0.949, 'grad_norm': 1.701835515317791, 'learning_rate': 9.770114942528735e-07, 'epoch': 0.15}
+{'loss': 0.9565, 'grad_norm': 1.8559663560641115, 'learning_rate': 1.0344827586206896e-06, 'epoch': 0.16}
+{'loss': 0.9594, 'grad_norm': 1.762768072661442, 'learning_rate': 1.0919540229885058e-06, 'epoch': 0.16}
+{'loss': 0.9333, 'grad_norm': 1.8273181657319835, 'learning_rate': 1.1494252873563217e-06, 'epoch': 0.17}
+[INFO|trainer.py:4228] 2025-10-20 17:46:18,325 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 17:46:18,325 >>   Batch size = 2
+  7%|████▉                                                               | 250/3474 [51:52<8:40:07,  9.68s/it][INFO|trainer.py:4226] 2025-10-20 17:57:04,465 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.9140276908874512, 'eval_runtime': 153.1589, 'eval_samples_per_second': 12.738, 'eval_steps_per_second': 0.797, 'epoch': 0.17}
+{'loss': 0.9416, 'grad_norm': 1.729944134115217, 'learning_rate': 1.206896551724138e-06, 'epoch': 0.18}
+{'loss': 0.9375, 'grad_norm': 1.7035220141374827, 'learning_rate': 1.264367816091954e-06, 'epoch': 0.19}
+{'loss': 0.9196, 'grad_norm': 1.7345297386726897, 'learning_rate': 1.3218390804597702e-06, 'epoch': 0.2}
+{'loss': 0.94, 'grad_norm': 1.6876736067187688, 'learning_rate': 1.3793103448275862e-06, 'epoch': 0.21}
+{'loss': 0.9351, 'grad_norm': 1.7033847393294008, 'learning_rate': 1.436781609195402e-06, 'epoch': 0.22}
+[INFO|trainer.py:4228] 2025-10-20 17:57:04,465 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 17:57:04,465 >>   Batch size = 2
+  9%|█████▋                                                            | 300/3474 [1:02:51<8:53:02, 10.08s/it][INFO|trainer.py:4226] 2025-10-20 18:08:03,155 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8919530510902405, 'eval_runtime': 153.0602, 'eval_samples_per_second': 12.747, 'eval_steps_per_second': 0.797, 'epoch': 0.22}
+{'loss': 0.9209, 'grad_norm': 1.6433671993000438, 'learning_rate': 1.4942528735632183e-06, 'epoch': 0.22}
+{'loss': 0.9034, 'grad_norm': 1.816116696001733, 'learning_rate': 1.5517241379310344e-06, 'epoch': 0.23}
+{'loss': 0.9354, 'grad_norm': 1.766163493963289, 'learning_rate': 1.6091954022988506e-06, 'epoch': 0.24}
+{'loss': 0.9341, 'grad_norm': 1.7081126872331722, 'learning_rate': 1.6666666666666667e-06, 'epoch': 0.25}
+{'loss': 0.9259, 'grad_norm': 1.7096870921125575, 'learning_rate': 1.7241379310344825e-06, 'epoch': 0.26}
+[INFO|trainer.py:4228] 2025-10-20 18:08:03,155 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 18:08:03,155 >>   Batch size = 2
+ 10%|██████▋                                                           | 350/3474 [1:13:40<8:18:41,  9.58s/it][INFO|trainer.py:4226] 2025-10-20 18:18:52,222 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8760032057762146, 'eval_runtime': 153.0697, 'eval_samples_per_second': 12.746, 'eval_steps_per_second': 0.797, 'epoch': 0.26}
+{'loss': 0.9143, 'grad_norm': 1.6687603228572678, 'learning_rate': 1.7816091954022987e-06, 'epoch': 0.27}
+[2025-10-20 18:12:49,759] [WARNING] [stage3.py:2114:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+{'loss': 0.8904, 'grad_norm': 1.7148300681465, 'learning_rate': 1.8390804597701148e-06, 'epoch': 0.28}
+{'loss': 0.899, 'grad_norm': 1.743044782827471, 'learning_rate': 1.896551724137931e-06, 'epoch': 0.28}
+{'loss': 0.8919, 'grad_norm': 1.652249374673694, 'learning_rate': 1.954022988505747e-06, 'epoch': 0.29}
+{'loss': 0.8864, 'grad_norm': 1.658023378281416, 'learning_rate': 1.9999979799987068e-06, 'epoch': 0.3}
+[INFO|trainer.py:4228] 2025-10-20 18:18:52,222 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 18:18:52,222 >>   Batch size = 2
+ 12%|███████▌                                                          | 400/3474 [1:24:42<8:47:49, 10.30s/it][INFO|trainer.py:4226] 2025-10-20 18:29:54,649 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8643289804458618, 'eval_runtime': 153.1232, 'eval_samples_per_second': 12.741, 'eval_steps_per_second': 0.797, 'epoch': 0.3}
+{'loss': 0.8961, 'grad_norm': 1.5939564882388575, 'learning_rate': 1.999927280810327e-06, 'epoch': 0.31}
+{'loss': 0.9115, 'grad_norm': 1.8422609299104893, 'learning_rate': 1.999755589717952e-06, 'epoch': 0.32}
+{'loss': 0.883, 'grad_norm': 1.741517642232578, 'learning_rate': 1.9994829240622522e-06, 'epoch': 0.33}
+{'loss': 0.8742, 'grad_norm': 1.6892987611594388, 'learning_rate': 1.9991093113822537e-06, 'epoch': 0.34}
+{'loss': 0.867, 'grad_norm': 1.6333869889813506, 'learning_rate': 1.9986347894125577e-06, 'epoch': 0.35}
+[INFO|trainer.py:4228] 2025-10-20 18:29:54,649 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 18:29:54,650 >>   Batch size = 2
+ 13%|████████▌                                                         | 450/3474 [1:35:44<8:10:35,  9.73s/it][INFO|trainer.py:4226] 2025-10-20 18:40:55,877 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8543221354484558, 'eval_runtime': 153.1101, 'eval_samples_per_second': 12.742, 'eval_steps_per_second': 0.797, 'epoch': 0.35}
+{'loss': 0.9165, 'grad_norm': 1.7831787813375228, 'learning_rate': 1.998059406079525e-06, 'epoch': 0.35}
+{'loss': 0.8822, 'grad_norm': 1.7392262873352062, 'learning_rate': 1.9973832194964404e-06, 'epoch': 0.36}
+{'loss': 0.8954, 'grad_norm': 1.81889854774832, 'learning_rate': 1.9966062979576414e-06, 'epoch': 0.37}
+{'loss': 0.8784, 'grad_norm': 1.8554786210635859, 'learning_rate': 1.995728719931619e-06, 'epoch': 0.38}
+{'loss': 0.8954, 'grad_norm': 1.7548553850397661, 'learning_rate': 1.994750574053094e-06, 'epoch': 0.39}
+[INFO|trainer.py:4228] 2025-10-20 18:40:55,877 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 18:40:55,877 >>   Batch size = 2
+ 14%|█████████▍                                                        | 500/3474 [1:46:35<8:14:19,  9.97s/it][INFO|trainer.py:4226] 2025-10-20 18:51:47,132 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8468868136405945, 'eval_runtime': 153.0186, 'eval_samples_per_second': 12.75, 'eval_steps_per_second': 0.797, 'epoch': 0.39}
+{'loss': 0.8583, 'grad_norm': 1.5741219768634263, 'learning_rate': 1.9936719591140662e-06, 'epoch': 0.4}
+{'loss': 0.8734, 'grad_norm': 1.6898140535053163, 'learning_rate': 1.9924929840538335e-06, 'epoch': 0.41}
+{'loss': 0.8691, 'grad_norm': 1.6512807876342706, 'learning_rate': 1.9912137679479905e-06, 'epoch': 0.41}
+{'loss': 0.8598, 'grad_norm': 1.7558070529069572, 'learning_rate': 1.9898344399964035e-06, 'epoch': 0.42}
+{'loss': 0.8628, 'grad_norm': 1.6275288996944157, 'learning_rate': 1.988355139510159e-06, 'epoch': 0.43}
+[INFO|trainer.py:4228] 2025-10-20 18:51:47,132 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 18:51:47,132 >>   Batch size = 2
+ 14%|█████████▍                                                        | 500/3474 [1:49:08<8:14:19,  9.97s/it][INFO|trainer.py:3910] 2025-10-20 18:54:25,410 >> Saving model checkpoint to /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500
+[INFO|configuration_utils.py:420] 2025-10-20 18:54:25,427 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500/config.json
+{'eval_loss': 0.8416303992271423, 'eval_runtime': 153.042, 'eval_samples_per_second': 12.748, 'eval_steps_per_second': 0.797, 'epoch': 0.43}
+[INFO|configuration_utils.py:909] 2025-10-20 18:54:25,440 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500/generation_config.json
+[INFO|modeling_utils.py:2996] 2025-10-20 18:54:46,267 >> The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2491] 2025-10-20 18:54:46,276 >> tokenizer config file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2500] 2025-10-20 18:54:46,284 >> Special tokens file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500/special_tokens_map.json
+[2025-10-20 18:54:46,469] [INFO] [logging.py:128:log_dist] [Rank 0] [Torch] Checkpoint global_step500 is about to be saved!
+[2025-10-20 18:54:46,483] [INFO] [logging.py:128:log_dist] [Rank 0] Saving model checkpoint: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500/global_step500/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2025-10-20 18:54:46,483] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500/global_step500/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2025-10-20 18:54:46,516] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500/global_step500/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2025-10-20 18:54:46,570] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500/global_step500/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2025-10-20 18:55:29,622] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500/global_step500/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2025-10-20 18:55:29,633] [INFO] [engine.py:3536:_save_zero_checkpoint] zero checkpoint saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-500/global_step500/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2025-10-20 18:55:30,076] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step500 is ready now!
+ 16%|██████████▍                                                       | 550/3474 [1:58:35<8:07:54, 10.01s/it][INFO|trainer.py:4226] 2025-10-20 19:03:47,072 >>
+{'loss': 0.8995, 'grad_norm': 1.545611029466189, 'learning_rate': 1.9867760158974934e-06, 'epoch': 0.44}
+{'loss': 0.8411, 'grad_norm': 1.714719605114527, 'learning_rate': 1.9850972286487065e-06, 'epoch': 0.45}
+{'loss': 0.8803, 'grad_norm': 1.587911852057278, 'learning_rate': 1.9833189473200484e-06, 'epoch': 0.46}
+{'loss': 0.8746, 'grad_norm': 1.7847325676841137, 'learning_rate': 1.981441351516597e-06, 'epoch': 0.47}
+{'loss': 0.8897, 'grad_norm': 1.8611254701064137, 'learning_rate': 1.9794646308741178e-06, 'epoch': 0.47}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-10-20 19:03:47,072 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 19:03:47,072 >>   Batch size = 2
+ 17%|███████████▍                                                      | 600/3474 [2:09:19<8:28:11, 10.61s/it][INFO|trainer.py:4226] 2025-10-20 19:14:31,568 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8377487659454346, 'eval_runtime': 152.9252, 'eval_samples_per_second': 12.758, 'eval_steps_per_second': 0.798, 'epoch': 0.47}
+{'loss': 0.871, 'grad_norm': 1.667380886065694, 'learning_rate': 1.9773889850399097e-06, 'epoch': 0.48}
+{'loss': 0.8686, 'grad_norm': 1.7010353403145682, 'learning_rate': 1.975214623652643e-06, 'epoch': 0.49}
+{'loss': 0.8767, 'grad_norm': 1.7221783422389567, 'learning_rate': 1.9729417663211838e-06, 'epoch': 0.5}
+{'loss': 0.8654, 'grad_norm': 1.649623964843248, 'learning_rate': 1.9705706426024143e-06, 'epoch': 0.51}
+{'loss': 0.8811, 'grad_norm': 1.7481355662641413, 'learning_rate': 1.9681014919780485e-06, 'epoch': 0.52}
+[INFO|trainer.py:4228] 2025-10-20 19:14:31,568 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 19:14:31,568 >>   Batch size = 2
+ 19%|████████████▎                                                     | 650/3474 [2:20:05<8:00:07, 10.20s/it][INFO|trainer.py:4226] 2025-10-20 19:25:17,383 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8328922390937805, 'eval_runtime': 152.984, 'eval_samples_per_second': 12.753, 'eval_steps_per_second': 0.797, 'epoch': 0.52}
+{'loss': 0.8836, 'grad_norm': 1.6919178105566126, 'learning_rate': 1.9655345638304444e-06, 'epoch': 0.53}
+{'loss': 0.8656, 'grad_norm': 1.710315547253272, 'learning_rate': 1.9628701174174164e-06, 'epoch': 0.54}
+{'loss': 0.8699, 'grad_norm': 1.7562018783560556, 'learning_rate': 1.960108421846049e-06, 'epoch': 0.54}
+{'loss': 0.8546, 'grad_norm': 1.6083060347522693, 'learning_rate': 1.9572497560455206e-06, 'epoch': 0.55}
+{'loss': 0.8657, 'grad_norm': 1.6217630853862408, 'learning_rate': 1.954294408738929e-06, 'epoch': 0.56}
+[INFO|trainer.py:4228] 2025-10-20 19:25:17,383 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 19:25:17,383 >>   Batch size = 2
+ 20%|█████████████▎                                                    | 700/3474 [2:31:01<7:24:52,  9.62s/it][INFO|trainer.py:4226] 2025-10-20 19:36:12,791 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8288100361824036, 'eval_runtime': 152.9909, 'eval_samples_per_second': 12.752, 'eval_steps_per_second': 0.797, 'epoch': 0.56}
+{'loss': 0.8777, 'grad_norm': 1.7820224768239301, 'learning_rate': 1.9512426784141306e-06, 'epoch': 0.57}
+{'loss': 0.8699, 'grad_norm': 1.5791904064600284, 'learning_rate': 1.948094873293596e-06, 'epoch': 0.58}
+{'loss': 0.8569, 'grad_norm': 1.4735122594258354, 'learning_rate': 1.9448513113032762e-06, 'epoch': 0.59}
+{'loss': 0.8723, 'grad_norm': 1.5878911231838138, 'learning_rate': 1.941512320040496e-06, 'epoch': 0.6}
+{'loss': 0.8471, 'grad_norm': 1.5417287130965538, 'learning_rate': 1.9380782367408633e-06, 'epoch': 0.6}
+[INFO|trainer.py:4228] 2025-10-20 19:36:12,791 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 19:36:12,791 >>   Batch size = 2
+ 22%|██████████████▏                                                   | 750/3474 [2:41:53<7:19:01,  9.67s/it][INFO|trainer.py:4226] 2025-10-20 19:47:05,551 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8266627788543701, 'eval_runtime': 153.009, 'eval_samples_per_second': 12.751, 'eval_steps_per_second': 0.797, 'epoch': 0.6}
+{'loss': 0.8281, 'grad_norm': 1.6477022114411917, 'learning_rate': 1.934549408244211e-06, 'epoch': 0.61}
+{'loss': 0.8639, 'grad_norm': 1.5579869382121725, 'learning_rate': 1.9309261909595654e-06, 'epoch': 0.62}
+{'loss': 0.8602, 'grad_norm': 1.6800921624617062, 'learning_rate': 1.9272089508291504e-06, 'epoch': 0.63}
+{'loss': 0.8699, 'grad_norm': 1.6174789253038968, 'learning_rate': 1.923398063291425e-06, 'epoch': 0.64}
+{'loss': 0.8477, 'grad_norm': 1.6887858514807668, 'learning_rate': 1.9194939132431678e-06, 'epoch': 0.65}
+[INFO|trainer.py:4228] 2025-10-20 19:47:05,552 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 19:47:05,552 >>   Batch size = 2
+ 23%|███████████████▏                                                  | 800/3474 [2:52:55<7:46:38, 10.47s/it][INFO|trainer.py:4226] 2025-10-20 19:58:07,537 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.823962390422821, 'eval_runtime': 153.1345, 'eval_samples_per_second': 12.74, 'eval_steps_per_second': 0.797, 'epoch': 0.65}
+{'loss': 0.888, 'grad_norm': 1.5937905232471032, 'learning_rate': 1.9154968950005997e-06, 'epoch': 0.66}
+{'loss': 0.8392, 'grad_norm': 1.6237224674337098, 'learning_rate': 1.9114074122595595e-06, 'epoch': 0.66}
+{'loss': 0.8561, 'grad_norm': 1.4962690610153484, 'learning_rate': 1.9072258780547314e-06, 'epoch': 0.67}
+{'loss': 0.8499, 'grad_norm': 1.5663304869040766, 'learning_rate': 1.9029527147179278e-06, 'epoch': 0.68}
+{'loss': 0.888, 'grad_norm': 1.700729320331162, 'learning_rate': 1.8985883538354349e-06, 'epoch': 0.69}
+[INFO|trainer.py:4228] 2025-10-20 19:58:07,537 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 19:58:07,537 >>   Batch size = 2
+ 24%|████████████████▏                                                 | 850/3474 [3:03:47<7:03:05,  9.67s/it][INFO|trainer.py:4226] 2025-10-20 20:08:59,286 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.820743978023529, 'eval_runtime': 153.0656, 'eval_samples_per_second': 12.746, 'eval_steps_per_second': 0.797, 'epoch': 0.69}
+{'loss': 0.8692, 'grad_norm': 1.6522611433464354, 'learning_rate': 1.8941332362044224e-06, 'epoch': 0.7}
+{'loss': 0.8651, 'grad_norm': 1.4912404795047633, 'learning_rate': 1.8895878117884234e-06, 'epoch': 0.71}
+{'loss': 0.8346, 'grad_norm': 1.575805077750561, 'learning_rate': 1.8849525396718882e-06, 'epoch': 0.72}
+{'loss': 0.8473, 'grad_norm': 1.526303379635272, 'learning_rate': 1.8802278880138178e-06, 'epoch': 0.73}
+{'loss': 0.8442, 'grad_norm': 1.5487636655404766, 'learning_rate': 1.8754143340004794e-06, 'epoch': 0.73}
+[INFO|trainer.py:4228] 2025-10-20 20:08:59,287 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 20:08:59,287 >>   Batch size = 2
+ 26%|█████████████████                                                 | 900/3474 [3:14:50<7:13:53, 10.11s/it][INFO|trainer.py:4226] 2025-10-20 20:20:02,169 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8182165622711182, 'eval_runtime': 152.9556, 'eval_samples_per_second': 12.755, 'eval_steps_per_second': 0.798, 'epoch': 0.73}
+{'loss': 0.8725, 'grad_norm': 1.6208939272502512, 'learning_rate': 1.8705123637972109e-06, 'epoch': 0.74}
+{'loss': 0.8502, 'grad_norm': 1.7212609698966546, 'learning_rate': 1.86552247249932e-06, 'epoch': 0.75}
+{'loss': 0.8505, 'grad_norm': 1.4709947188293244, 'learning_rate': 1.860445164082078e-06, 'epoch': 0.76}
+{'loss': 0.8421, 'grad_norm': 1.7684106655182943, 'learning_rate': 1.8552809513498198e-06, 'epoch': 0.77}
+{'loss': 0.8739, 'grad_norm': 1.6583814036364464, 'learning_rate': 1.8500303558841507e-06, 'epoch': 0.78}
+[INFO|trainer.py:4228] 2025-10-20 20:20:02,169 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 20:20:02,169 >>   Batch size = 2
+ 27%|██████████████████                                                | 950/3474 [3:25:42<6:38:39,  9.48s/it][INFO|trainer.py:4226] 2025-10-20 20:30:54,227 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8162564039230347, 'eval_runtime': 152.9583, 'eval_samples_per_second': 12.755, 'eval_steps_per_second': 0.798, 'epoch': 0.78}
+{'loss': 0.8526, 'grad_norm': 1.764079622879108, 'learning_rate': 1.844693907991268e-06, 'epoch': 0.79}
+{'loss': 0.8506, 'grad_norm': 1.8057008750228574, 'learning_rate': 1.8392721466483983e-06, 'epoch': 0.79}
+{'loss': 0.8583, 'grad_norm': 1.6263722559202745, 'learning_rate': 1.8337656194493633e-06, 'epoch': 0.8}
+{'loss': 0.8429, 'grad_norm': 1.4952205967297711, 'learning_rate': 1.8281748825492728e-06, 'epoch': 0.81}
+{'loss': 0.8458, 'grad_norm': 1.6113843117265356, 'learning_rate': 1.8225005006083524e-06, 'epoch': 0.82}
+[INFO|trainer.py:4228] 2025-10-20 20:30:54,228 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 20:30:54,228 >>   Batch size = 2
+ 29%|██████████████████▋                                              | 1000/3474 [3:36:40<7:03:38, 10.27s/it][INFO|trainer.py:4226] 2025-10-20 20:41:51,767 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8142014145851135, 'eval_runtime': 153.061, 'eval_samples_per_second': 12.747, 'eval_steps_per_second': 0.797, 'epoch': 0.82}
+{'loss': 0.8595, 'grad_norm': 1.7191318248949277, 'learning_rate': 1.8167430467349144e-06, 'epoch': 0.83}
+{'loss': 0.8347, 'grad_norm': 1.515778170316833, 'learning_rate': 1.8109031024274733e-06, 'epoch': 0.84}
+{'loss': 0.8666, 'grad_norm': 1.5232992112544153, 'learning_rate': 1.8049812575160167e-06, 'epoch': 0.85}
+{'loss': 0.8553, 'grad_norm': 1.5860321454481685, 'learning_rate': 1.7989781101024303e-06, 'epoch': 0.85}
+{'loss': 0.8519, 'grad_norm': 1.5103915597844588, 'learning_rate': 1.7928942665000916e-06, 'epoch': 0.86}
+[INFO|trainer.py:4228] 2025-10-20 20:41:51,768 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 20:41:51,768 >>   Batch size = 2
+ 29%|██████████████████▋                                              | 1000/3474 [3:39:13<7:03:38, 10.27s/it][INFO|trainer.py:3910] 2025-10-20 20:44:29,744 >> Saving model checkpoint to /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000
+[INFO|configuration_utils.py:420] 2025-10-20 20:44:29,840 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000/config.json
+{'eval_loss': 0.8119761943817139, 'eval_runtime': 153.0222, 'eval_samples_per_second': 12.75, 'eval_steps_per_second': 0.797, 'epoch': 0.86}
+[INFO|configuration_utils.py:909] 2025-10-20 20:44:29,872 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000/generation_config.json
+[INFO|modeling_utils.py:2996] 2025-10-20 20:45:00,984 >> The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2491] 2025-10-20 20:45:01,017 >> tokenizer config file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2500] 2025-10-20 20:45:01,049 >> Special tokens file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000/special_tokens_map.json
+[2025-10-20 20:45:01,408] [INFO] [logging.py:128:log_dist] [Rank 0] [Torch] Checkpoint global_step1000 is about to be saved!
+[2025-10-20 20:45:01,446] [INFO] [logging.py:128:log_dist] [Rank 0] Saving model checkpoint: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000/global_step1000/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2025-10-20 20:45:01,446] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000/global_step1000/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2025-10-20 20:45:01,675] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000/global_step1000/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2025-10-20 20:45:01,742] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000/global_step1000/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2025-10-20 20:46:39,217] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000/global_step1000/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2025-10-20 20:46:39,251] [INFO] [engine.py:3536:_save_zero_checkpoint] zero checkpoint saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1000/global_step1000/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2025-10-20 20:46:40,875] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step1000 is ready now!
+ 30%|███████████████████▋                                             | 1050/3474 [3:49:49<6:43:00,  9.98s/it][INFO|trainer.py:4226] 2025-10-20 20:55:01,528 >>
+{'loss': 0.853, 'grad_norm': 1.5801521322335765, 'learning_rate': 1.786730341172634e-06, 'epoch': 0.87}
+{'loss': 0.8723, 'grad_norm': 1.6198273715583582, 'learning_rate': 1.780486956671883e-06, 'epoch': 0.88}
+{'loss': 0.841, 'grad_norm': 1.5924779983877528, 'learning_rate': 1.7741647435749823e-06, 'epoch': 0.89}
+{'loss': 0.8542, 'grad_norm': 1.7624814538965332, 'learning_rate': 1.7677643404207038e-06, 'epoch': 0.9}
+{'loss': 0.8429, 'grad_norm': 1.7204221482215194, 'learning_rate': 1.7612863936449568e-06, 'epoch': 0.91}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-10-20 20:55:01,528 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 20:55:01,528 >>   Batch size = 2
+ 32%|████████████████████▌                                            | 1100/3474 [4:00:41<6:38:21, 10.07s/it][INFO|trainer.py:4226] 2025-10-20 21:05:53,066 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.810716450214386, 'eval_runtime': 153.1025, 'eval_samples_per_second': 12.743, 'eval_steps_per_second': 0.797, 'epoch': 0.91}
+{'loss': 0.8128, 'grad_norm': 1.573376548288193, 'learning_rate': 1.7547315575154976e-06, 'epoch': 0.91}
+{'loss': 0.858, 'grad_norm': 1.434013602148702, 'learning_rate': 1.74810049406585e-06, 'epoch': 0.92}
+{'loss': 0.8465, 'grad_norm': 1.6840321839186716, 'learning_rate': 1.74139387302844e-06, 'epoch': 0.93}
+{'loss': 0.8375, 'grad_norm': 1.5537836431189063, 'learning_rate': 1.734612371766953e-06, 'epoch': 0.94}
+{'loss': 0.8204, 'grad_norm': 1.485387430116705, 'learning_rate': 1.72775667520792e-06, 'epoch': 0.95}
+[INFO|trainer.py:4228] 2025-10-20 21:05:53,066 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 21:05:53,066 >>   Batch size = 2
+ 33%|█████████████████████▌                                           | 1150/3474 [4:11:29<6:34:55, 10.20s/it][INFO|trainer.py:4226] 2025-10-20 21:16:40,953 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8087438344955444, 'eval_runtime': 153.0124, 'eval_samples_per_second': 12.751, 'eval_steps_per_second': 0.797, 'epoch': 0.95}
+{'loss': 0.8216, 'grad_norm': 1.577429973783657, 'learning_rate': 1.7208274757715423e-06, 'epoch': 0.96}
+{'loss': 0.8374, 'grad_norm': 1.6668842581091463, 'learning_rate': 1.7138254733017563e-06, 'epoch': 0.97}
+{'loss': 0.8148, 'grad_norm': 1.84001811486081, 'learning_rate': 1.70675137499555e-06, 'epoch': 0.98}
+{'loss': 0.822, 'grad_norm': 1.5507605933698854, 'learning_rate': 1.6996058953315368e-06, 'epoch': 0.98}
+{'loss': 0.8372, 'grad_norm': 1.8134523834145615, 'learning_rate': 1.692389755997793e-06, 'epoch': 0.99}
+[INFO|trainer.py:4228] 2025-10-20 21:16:40,954 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 21:16:40,954 >>   Batch size = 2
+ 35%|██████████████████████▍                                          | 1200/3474 [4:22:15<6:16:13,  9.93s/it][INFO|trainer.py:4226] 2025-10-20 21:27:27,453 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8081397414207458, 'eval_runtime': 152.9892, 'eval_samples_per_second': 12.753, 'eval_steps_per_second': 0.797, 'epoch': 0.99}
+{'loss': 0.826, 'grad_norm': 2.419990549718654, 'learning_rate': 1.6851036858189694e-06, 'epoch': 1.0}
+{'loss': 0.8024, 'grad_norm': 1.4619997507737859, 'learning_rate': 1.677748420682679e-06, 'epoch': 1.01}
+{'loss': 0.8281, 'grad_norm': 1.4946721953301905, 'learning_rate': 1.670324703465174e-06, 'epoch': 1.02}
+{'loss': 0.8166, 'grad_norm': 1.670479736514403, 'learning_rate': 1.662833283956315e-06, 'epoch': 1.03}
+{'loss': 0.782, 'grad_norm': 1.4780486918653069, 'learning_rate': 1.655274918783842e-06, 'epoch': 1.04}
+[INFO|trainer.py:4228] 2025-10-20 21:27:27,454 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 21:27:27,454 >>   Batch size = 2
+ 36%|███████████████████████▍                                         | 1250/3474 [4:33:06<6:22:10, 10.31s/it][INFO|trainer.py:4226] 2025-10-20 21:38:18,408 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.807748019695282, 'eval_runtime': 153.0077, 'eval_samples_per_second': 12.751, 'eval_steps_per_second': 0.797, 'epoch': 1.04}
+{'loss': 0.822, 'grad_norm': 1.831501699539834, 'learning_rate': 1.6476503713369599e-06, 'epoch': 1.04}
+{'loss': 0.7963, 'grad_norm': 1.5277991164678424, 'learning_rate': 1.63996041168923e-06, 'epoch': 1.05}
+{'loss': 0.7966, 'grad_norm': 1.643322059535954, 'learning_rate': 1.6322058165207988e-06, 'epoch': 1.06}
+{'loss': 0.8067, 'grad_norm': 1.5337658011321134, 'learning_rate': 1.6243873690399517e-06, 'epoch': 1.07}
+{'loss': 0.8024, 'grad_norm': 1.509361604629542, 'learning_rate': 1.6165058589040088e-06, 'epoch': 1.08}
+[INFO|trainer.py:4228] 2025-10-20 21:38:18,408 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 21:38:18,409 >>   Batch size = 2
+ 37%|████████████████████████▎                                        | 1300/3474 [4:44:04<6:02:53, 10.02s/it][INFO|trainer.py:4226] 2025-10-20 21:49:15,884 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8077132701873779, 'eval_runtime': 152.8293, 'eval_samples_per_second': 12.766, 'eval_steps_per_second': 0.798, 'epoch': 1.08}
+{'loss': 0.7851, 'grad_norm': 1.7186418575293851, 'learning_rate': 1.608562082139572e-06, 'epoch': 1.09}
+{'loss': 0.8021, 'grad_norm': 1.5843719867325867, 'learning_rate': 1.6005568410621248e-06, 'epoch': 1.1}
+{'loss': 0.788, 'grad_norm': 1.4559890692645139, 'learning_rate': 1.5924909441950014e-06, 'epoch': 1.1}
+{'loss': 0.8281, 'grad_norm': 1.5998203152313195, 'learning_rate': 1.5843652061877241e-06, 'epoch': 1.11}
+{'loss': 0.7973, 'grad_norm': 1.4462782200468032, 'learning_rate': 1.576180447733726e-06, 'epoch': 1.12}
+[INFO|trainer.py:4228] 2025-10-20 21:49:15,884 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 21:49:15,885 >>   Batch size = 2
+ 39%|█████████████████████████▎                                       | 1350/3474 [4:55:02<6:00:54, 10.20s/it][INFO|trainer.py:4226] 2025-10-20 22:00:14,317 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8063353300094604, 'eval_runtime': 153.1539, 'eval_samples_per_second': 12.739, 'eval_steps_per_second': 0.797, 'epoch': 1.12}
+{'loss': 0.7751, 'grad_norm': 1.6180136738200024, 'learning_rate': 1.5679374954874605e-06, 'epoch': 1.13}
+{'loss': 0.8054, 'grad_norm': 1.6106378588105152, 'learning_rate': 1.5596371819809103e-06, 'epoch': 1.14}
+{'loss': 0.7921, 'grad_norm': 1.5458773591239907, 'learning_rate': 1.5512803455395033e-06, 'epoch': 1.15}
+{'loss': 0.81, 'grad_norm': 1.663985695422887, 'learning_rate': 1.5428678301974403e-06, 'epoch': 1.16}
+{'loss': 0.7967, 'grad_norm': 1.4655097415158214, 'learning_rate': 1.534400485612449e-06, 'epoch': 1.16}
+[INFO|trainer.py:4228] 2025-10-20 22:00:14,317 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 22:00:14,317 >>   Batch size = 2
+ 40%|██████████████████████████▏                                      | 1400/3474 [5:06:02<5:46:06, 10.01s/it][INFO|trainer.py:4226] 2025-10-20 22:11:14,063 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8052524328231812, 'eval_runtime': 153.0871, 'eval_samples_per_second': 12.744, 'eval_steps_per_second': 0.797, 'epoch': 1.16}
+{'loss': 0.8186, 'grad_norm': 1.617113114422984, 'learning_rate': 1.5258791669799704e-06, 'epoch': 1.17}
+{'loss': 0.778, 'grad_norm': 1.7109904580159596, 'learning_rate': 1.5173047349467834e-06, 'epoch': 1.18}
+{'loss': 0.8057, 'grad_norm': 1.665280771316851, 'learning_rate': 1.5086780555240802e-06, 'epoch': 1.19}
+{'loss': 0.8285, 'grad_norm': 1.8103611201072816, 'learning_rate': 1.5e-06, 'epoch': 1.2}
+{'loss': 0.7948, 'grad_norm': 1.3733891831127025, 'learning_rate': 1.49127144485163e-06, 'epoch': 1.21}
+[INFO|trainer.py:4228] 2025-10-20 22:11:14,063 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 22:11:14,064 >>   Batch size = 2
+ 42%|███████████████████████████▏                                     | 1450/3474 [5:16:51<5:35:51,  9.96s/it][INFO|trainer.py:4226] 2025-10-20 22:22:03,049 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8055736422538757, 'eval_runtime': 153.0462, 'eval_samples_per_second': 12.748, 'eval_steps_per_second': 0.797, 'epoch': 1.21}
+{'loss': 0.7734, 'grad_norm': 1.5067768704989355, 'learning_rate': 1.4824932716564817e-06, 'epoch': 1.22}
+{'loss': 0.8045, 'grad_norm': 1.5409837817625416, 'learning_rate': 1.4736663670034513e-06, 'epoch': 1.23}
+{'loss': 0.8175, 'grad_norm': 1.6995073277456176, 'learning_rate': 1.4647916224032764e-06, 'epoch': 1.23}
+{'loss': 0.8129, 'grad_norm': 1.7137377753094973, 'learning_rate': 1.4558699341984925e-06, 'epoch': 1.24}
+{'loss': 0.8307, 'grad_norm': 1.4414501798836554, 'learning_rate': 1.4469022034729045e-06, 'epoch': 1.25}
+[INFO|trainer.py:4228] 2025-10-20 22:22:03,049 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 22:22:03,049 >>   Batch size = 2
+ 43%|████████████████████████████                                     | 1500/3474 [5:27:42<5:18:51,  9.69s/it][INFO|trainer.py:4226] 2025-10-20 22:32:54,090 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8035263419151306, 'eval_runtime': 152.9745, 'eval_samples_per_second': 12.754, 'eval_steps_per_second': 0.798, 'epoch': 1.25}
+{'loss': 0.8375, 'grad_norm': 1.4999524057045888, 'learning_rate': 1.4378893359605775e-06, 'epoch': 1.26}
+{'loss': 0.805, 'grad_norm': 1.469160641353213, 'learning_rate': 1.4288322419543575e-06, 'epoch': 1.27}
+{'loss': 0.8154, 'grad_norm': 1.7869278242000965, 'learning_rate': 1.4197318362139332e-06, 'epoch': 1.28}
+{'loss': 0.7937, 'grad_norm': 1.850445413975452, 'learning_rate': 1.4105890378734469e-06, 'epoch': 1.29}
+{'loss': 0.8008, 'grad_norm': 1.5969002107858374, 'learning_rate': 1.4014047703486597e-06, 'epoch': 1.29}
+[INFO|trainer.py:4228] 2025-10-20 22:32:54,090 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 22:32:54,090 >>   Batch size = 2
+ 43%|████████████████████████████                                     | 1500/3474 [5:30:15<5:18:51,  9.69s/it][INFO|trainer.py:3910] 2025-10-20 22:35:31,922 >> Saving model checkpoint to /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500
+[INFO|configuration_utils.py:420] 2025-10-20 22:35:31,947 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500/config.json
+{'eval_loss': 0.8019895553588867, 'eval_runtime': 152.9908, 'eval_samples_per_second': 12.752, 'eval_steps_per_second': 0.797, 'epoch': 1.29}
+[INFO|configuration_utils.py:909] 2025-10-20 22:35:31,955 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500/generation_config.json
+[INFO|modeling_utils.py:2996] 2025-10-20 22:35:47,144 >> The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2491] 2025-10-20 22:35:47,154 >> tokenizer config file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2500] 2025-10-20 22:35:47,162 >> Special tokens file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500/special_tokens_map.json
+[2025-10-20 22:35:47,362] [INFO] [logging.py:128:log_dist] [Rank 0] [Torch] Checkpoint global_step1499 is about to be saved!
+[2025-10-20 22:35:47,376] [INFO] [logging.py:128:log_dist] [Rank 0] Saving model checkpoint: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500/global_step1499/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2025-10-20 22:35:47,376] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500/global_step1499/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2025-10-20 22:35:47,425] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500/global_step1499/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2025-10-20 22:35:47,460] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500/global_step1499/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2025-10-20 22:36:28,407] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500/global_step1499/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2025-10-20 22:36:28,418] [INFO] [engine.py:3536:_save_zero_checkpoint] zero checkpoint saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-1500/global_step1499/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2025-10-20 22:36:28,760] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step1499 is ready now!
+ 45%|█████████████████████████████                                    | 1550/3474 [5:39:42<5:37:07, 10.51s/it][INFO|trainer.py:4226] 2025-10-20 22:44:54,363 >>
+{'loss': 0.7851, 'grad_norm': 1.5583594701036756, 'learning_rate': 1.3921799612436916e-06, 'epoch': 1.3}
+{'loss': 0.8038, 'grad_norm': 1.5896579858597653, 'learning_rate': 1.3829155422573299e-06, 'epoch': 1.31}
+{'loss': 0.794, 'grad_norm': 1.4221745051539922, 'learning_rate': 1.3736124490889306e-06, 'epoch': 1.32}
+{'loss': 0.8203, 'grad_norm': 1.772218677947641, 'learning_rate': 1.3642716213439137e-06, 'epoch': 1.33}
+{'loss': 0.8117, 'grad_norm': 1.6167034709198027, 'learning_rate': 1.3548940024388617e-06, 'epoch': 1.34}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-10-20 22:44:54,363 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 22:44:54,363 >>   Batch size = 2
+ 46%|█████████████████████████████▉                                   | 1600/3474 [5:50:36<5:02:36,  9.69s/it][INFO|trainer.py:4226] 2025-10-20 22:55:48,045 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8013297319412231, 'eval_runtime': 152.8795, 'eval_samples_per_second': 12.762, 'eval_steps_per_second': 0.798, 'epoch': 1.34}
+{'loss': 0.7733, 'grad_norm': 1.5525618242332266, 'learning_rate': 1.3454805395062385e-06, 'epoch': 1.35}
+{'loss': 0.795, 'grad_norm': 1.5260545385702122, 'learning_rate': 1.336032183298726e-06, 'epoch': 1.35}
+{'loss': 0.7607, 'grad_norm': 1.4481875938242448, 'learning_rate': 1.3265498880932025e-06, 'epoch': 1.36}
+{'loss': 0.7953, 'grad_norm': 1.5921738839899766, 'learning_rate': 1.3170346115943574e-06, 'epoch': 1.37}
+{'loss': 0.7881, 'grad_norm': 1.5274961726508536, 'learning_rate': 1.3074873148379673e-06, 'epoch': 1.38}
+[INFO|trainer.py:4228] 2025-10-20 22:55:48,046 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 22:55:48,046 >>   Batch size = 2
+ 47%|██████████████████████████████▊                                  | 1650/3474 [6:01:19<4:54:25,  9.68s/it][INFO|trainer.py:4226] 2025-10-20 23:06:30,762 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.8003390431404114, 'eval_runtime': 152.9517, 'eval_samples_per_second': 12.756, 'eval_steps_per_second': 0.798, 'epoch': 1.38}
+{'loss': 0.7968, 'grad_norm': 1.3223788287825715, 'learning_rate': 1.2979089620938313e-06, 'epoch': 1.39}
+{'loss': 0.7698, 'grad_norm': 1.799683454515056, 'learning_rate': 1.288300520768378e-06, 'epoch': 1.4}
+{'loss': 0.8188, 'grad_norm': 1.3668825371068265, 'learning_rate': 1.2786629613069628e-06, 'epoch': 1.41}
+{'loss': 0.792, 'grad_norm': 1.6252454166733679, 'learning_rate': 1.2689972570958487e-06, 'epoch': 1.42}
+{'loss': 0.7743, 'grad_norm': 1.5474906380422242, 'learning_rate': 1.2593043843638978e-06, 'epoch': 1.42}
+[INFO|trainer.py:4228] 2025-10-20 23:06:30,762 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 23:06:30,763 >>   Batch size = 2
+ 49%|███████████████████████████████▊                                 | 1700/3474 [6:12:17<5:00:06, 10.15s/it][INFO|trainer.py:4226] 2025-10-20 23:17:29,589 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7994902729988098, 'eval_runtime': 152.9288, 'eval_samples_per_second': 12.758, 'eval_steps_per_second': 0.798, 'epoch': 1.42}
+{'loss': 0.7677, 'grad_norm': 1.6619237399495086, 'learning_rate': 1.2495853220839727e-06, 'epoch': 1.43}
+{'loss': 0.7892, 'grad_norm': 1.480290490102907, 'learning_rate': 1.2398410518740606e-06, 'epoch': 1.44}
+{'loss': 0.7882, 'grad_norm': 1.4328355764511271, 'learning_rate': 1.2300725578981306e-06, 'epoch': 1.45}
+{'loss': 0.7869, 'grad_norm': 1.6015925990140965, 'learning_rate': 1.2202808267667345e-06, 'epoch': 1.46}
+{'loss': 0.8022, 'grad_norm': 1.531922321057739, 'learning_rate': 1.2104668474373583e-06, 'epoch': 1.47}
+[INFO|trainer.py:4228] 2025-10-20 23:17:29,589 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 23:17:29,589 >>   Batch size = 2
+ 50%|████████████████████████████████▋                                | 1750/3474 [6:23:07<4:47:43, 10.01s/it][INFO|trainer.py:4226] 2025-10-20 23:28:18,819 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7986573576927185, 'eval_runtime': 152.928, 'eval_samples_per_second': 12.758, 'eval_steps_per_second': 0.798, 'epoch': 1.47}
+{'loss': 0.7738, 'grad_norm': 1.6738736775004008, 'learning_rate': 1.20063161111454e-06, 'epoch': 1.48}
+{'loss': 0.7844, 'grad_norm': 1.374143606448104, 'learning_rate': 1.190776111149758e-06, 'epoch': 1.48}
+{'loss': 0.8084, 'grad_norm': 1.4038590023259785, 'learning_rate': 1.1809013429411025e-06, 'epoch': 1.49}
+{'loss': 0.7917, 'grad_norm': 1.3614485628719715, 'learning_rate': 1.1710083038327433e-06, 'epoch': 1.5}
+{'loss': 0.803, 'grad_norm': 1.814774032871414, 'learning_rate': 1.1610979930141965e-06, 'epoch': 1.51}
+[INFO|trainer.py:4228] 2025-10-20 23:28:18,819 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 23:28:18,819 >>   Batch size = 2
+ 52%|█████████████████████████████████▋                               | 1800/3474 [6:34:06<4:44:51, 10.21s/it][INFO|trainer.py:4226] 2025-10-20 23:39:18,427 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7980570793151855, 'eval_runtime': 152.8975, 'eval_samples_per_second': 12.76, 'eval_steps_per_second': 0.798, 'epoch': 1.51}
+{'loss': 0.785, 'grad_norm': 1.8455174601652649, 'learning_rate': 1.1511714114194071e-06, 'epoch': 1.52}
+{'loss': 0.8117, 'grad_norm': 1.6976499399068947, 'learning_rate': 1.1412295616256575e-06, 'epoch': 1.53}
+{'loss': 0.8079, 'grad_norm': 1.9547465953052516, 'learning_rate': 1.131273447752307e-06, 'epoch': 1.54}
+{'loss': 0.8361, 'grad_norm': 1.310701159516543, 'learning_rate': 1.1213040753593747e-06, 'epoch': 1.54}
+{'loss': 0.7874, 'grad_norm': 1.9637595126345222, 'learning_rate': 1.1113224513459817e-06, 'epoch': 1.55}
+[INFO|trainer.py:4228] 2025-10-20 23:39:18,427 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 23:39:18,427 >>   Batch size = 2
+ 53%|██████████████████████████████████▌                              | 1850/3474 [6:44:49<4:30:23,  9.99s/it][INFO|trainer.py:4226] 2025-10-20 23:50:01,507 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7974797487258911, 'eval_runtime': 152.8398, 'eval_samples_per_second': 12.765, 'eval_steps_per_second': 0.798, 'epoch': 1.55}
+{'loss': 0.7963, 'grad_norm': 1.3830946430393887, 'learning_rate': 1.101329583848653e-06, 'epoch': 1.56}
+{'loss': 0.801, 'grad_norm': 1.5309747959783453, 'learning_rate': 1.0913264821394961e-06, 'epoch': 1.57}
+{'loss': 0.7936, 'grad_norm': 1.261396402224552, 'learning_rate': 1.081314156524268e-06, 'epoch': 1.58}
+{'loss': 0.7786, 'grad_norm': 1.2654354760856732, 'learning_rate': 1.071293618240332e-06, 'epoch': 1.59}
+{'loss': 0.7939, 'grad_norm': 1.5536984988689873, 'learning_rate': 1.0612658793545253e-06, 'epoch': 1.6}
+[INFO|trainer.py:4228] 2025-10-20 23:50:01,507 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-20 23:50:01,508 >>   Batch size = 2
+ 55%|███████████████████████████████████▌                             | 1900/3474 [6:55:40<4:18:26,  9.85s/it][INFO|trainer.py:4226] 2025-10-21 00:00:52,294 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7958750128746033, 'eval_runtime': 153.0331, 'eval_samples_per_second': 12.749, 'eval_steps_per_second': 0.797, 'epoch': 1.6}
+{'loss': 0.7794, 'grad_norm': 1.453585652003926, 'learning_rate': 1.0512319526609403e-06, 'epoch': 1.61}
+{'loss': 0.7923, 'grad_norm': 1.4055194436191143, 'learning_rate': 1.041192851578633e-06, 'epoch': 1.61}
+{'loss': 0.8127, 'grad_norm': 1.6752701149332132, 'learning_rate': 1.0311495900492696e-06, 'epoch': 1.62}
+{'loss': 0.8111, 'grad_norm': 1.528244018744988, 'learning_rate': 1.0211031824347178e-06, 'epoch': 1.63}
+{'loss': 0.7896, 'grad_norm': 1.39538553099933, 'learning_rate': 1.0110546434145975e-06, 'epoch': 1.64}
+[INFO|trainer.py:4228] 2025-10-21 00:00:52,294 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 00:00:52,294 >>   Batch size = 2
+ 56%|████████████████████████████████████▍                            | 1950/3474 [7:06:37<4:14:31, 10.02s/it][INFO|trainer.py:4226] 2025-10-21 00:11:49,030 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7950282096862793, 'eval_runtime': 152.8315, 'eval_samples_per_second': 12.766, 'eval_steps_per_second': 0.798, 'epoch': 1.64}
+{'loss': 0.8166, 'grad_norm': 1.4318636689813355, 'learning_rate': 1.0010049878837986e-06, 'epoch': 1.65}
+{'loss': 0.8, 'grad_norm': 1.5979754383936053, 'learning_rate': 9.90955230849979e-07, 'epoch': 1.66}
+{'loss': 0.8056, 'grad_norm': 1.609992459184733, 'learning_rate': 9.80906387331047e-07, 'epoch': 1.67}
+{'loss': 0.8299, 'grad_norm': 1.343411934317977, 'learning_rate': 9.708594722526469e-07, 'epoch': 1.67}
+{'loss': 0.8021, 'grad_norm': 1.9108968088360492, 'learning_rate': 9.608155003456528e-07, 'epoch': 1.68}
+[INFO|trainer.py:4228] 2025-10-21 00:11:49,030 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 00:11:49,030 >>   Batch size = 2
+ 58%|█████████████████████████████████████▍                           | 2000/3474 [7:17:29<4:00:47,  9.80s/it][INFO|trainer.py:4226] 2025-10-21 00:22:40,812 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7942298650741577, 'eval_runtime': 152.8403, 'eval_samples_per_second': 12.765, 'eval_steps_per_second': 0.798, 'epoch': 1.68}
+{'loss': 0.8184, 'grad_norm': 1.3830896282353786, 'learning_rate': 9.5077548604368e-07, 'epoch': 1.69}
+{'loss': 0.7748, 'grad_norm': 1.4504086563085474, 'learning_rate': 9.407404433806283e-07, 'epoch': 1.7}
+{'loss': 0.7917, 'grad_norm': 1.8797124969843977, 'learning_rate': 9.307113858882662e-07, 'epoch': 1.71}
+{'loss': 0.8053, 'grad_norm': 1.6379046150885093, 'learning_rate': 9.206893264938642e-07, 'epoch': 1.72}
+{'loss': 0.7718, 'grad_norm': 1.6916284176349652, 'learning_rate': 9.106752774178909e-07, 'epoch': 1.73}
+[INFO|trainer.py:4228] 2025-10-21 00:22:40,812 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 00:22:40,813 >>   Batch size = 2
+ 58%|█████████████████████████████████████▍                           | 2000/3474 [7:20:01<4:00:47,  9.80s/it][INFO|trainer.py:3910] 2025-10-21 00:25:18,864 >> Saving model checkpoint to /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000
+[INFO|configuration_utils.py:420] 2025-10-21 00:25:18,960 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000/config.json
+{'eval_loss': 0.7940771579742432, 'eval_runtime': 152.8007, 'eval_samples_per_second': 12.768, 'eval_steps_per_second': 0.798, 'epoch': 1.73}
+[INFO|configuration_utils.py:909] 2025-10-21 00:25:18,992 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000/generation_config.json
+[INFO|modeling_utils.py:2996] 2025-10-21 00:25:45,738 >> The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2491] 2025-10-21 00:25:45,772 >> tokenizer config file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2500] 2025-10-21 00:25:45,804 >> Special tokens file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000/special_tokens_map.json
+[2025-10-21 00:25:46,837] [INFO] [logging.py:128:log_dist] [Rank 0] [Torch] Checkpoint global_step1999 is about to be saved!
+[2025-10-21 00:25:46,875] [INFO] [logging.py:128:log_dist] [Rank 0] Saving model checkpoint: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000/global_step1999/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2025-10-21 00:25:46,876] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000/global_step1999/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2025-10-21 00:25:47,105] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000/global_step1999/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2025-10-21 00:25:47,172] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000/global_step1999/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2025-10-21 00:27:03,597] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000/global_step1999/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2025-10-21 00:27:03,631] [INFO] [engine.py:3536:_save_zero_checkpoint] zero checkpoint saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2000/global_step1999/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2025-10-21 00:27:03,665] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step1999 is ready now!
+ 59%|██████████████████████████████████████▎                          | 2050/3474 [7:30:13<4:02:09, 10.20s/it][INFO|trainer.py:4226] 2025-10-21 00:35:25,674 >>
+{'loss': 0.8039, 'grad_norm': 1.5467799673588287, 'learning_rate': 9.006702500717784e-07, 'epoch': 1.73}
+{'loss': 0.785, 'grad_norm': 1.4001678067324959, 'learning_rate': 8.906752549557699e-07, 'epoch': 1.74}
+{'loss': 0.774, 'grad_norm': 1.5260659674490824, 'learning_rate': 8.806913015568621e-07, 'epoch': 1.75}
+{'loss': 0.7764, 'grad_norm': 1.56265235996225, 'learning_rate': 8.707193982468455e-07, 'epoch': 1.76}
+{'loss': 0.8218, 'grad_norm': 1.7586414566049808, 'learning_rate': 8.607605521804624e-07, 'epoch': 1.77}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-10-21 00:35:25,674 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 00:35:25,674 >>   Batch size = 2
+ 60%|███████████████████████████████████████▎                         | 2100/3474 [7:41:12<3:53:55, 10.21s/it][INFO|trainer.py:4226] 2025-10-21 00:46:24,407 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7931417226791382, 'eval_runtime': 152.8459, 'eval_samples_per_second': 12.764, 'eval_steps_per_second': 0.798, 'epoch': 1.77}
+{'loss': 0.7592, 'grad_norm': 1.6677620552788985, 'learning_rate': 8.508157691936817e-07, 'epoch': 1.78}
+{'loss': 0.7789, 'grad_norm': 1.6794810165431382, 'learning_rate': 8.408860537021125e-07, 'epoch': 1.79}
+{'loss': 0.786, 'grad_norm': 1.3870876121312017, 'learning_rate': 8.309724085995576e-07, 'epoch': 1.79}
+{'loss': 0.8109, 'grad_norm': 1.6300171211843664, 'learning_rate': 8.210758351567231e-07, 'epoch': 1.8}
+{'loss': 0.7836, 'grad_norm': 1.5013723477075978, 'learning_rate': 8.111973329200907e-07, 'epoch': 1.81}
+[INFO|trainer.py:4228] 2025-10-21 00:46:24,408 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 00:46:24,408 >>   Batch size = 2
+ 62%|████████████████████████████████████████▏                        | 2150/3474 [7:52:06<3:39:48,  9.96s/it][INFO|trainer.py:4226] 2025-10-21 00:57:17,859 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7921437621116638, 'eval_runtime': 152.8518, 'eval_samples_per_second': 12.764, 'eval_steps_per_second': 0.798, 'epoch': 1.81}
+{'loss': 0.7653, 'grad_norm': 1.4791565841219545, 'learning_rate': 8.013378996109633e-07, 'epoch': 1.82}
+{'loss': 0.8051, 'grad_norm': 1.4024693226132858, 'learning_rate': 7.914985310246964e-07, 'epoch': 1.83}
+{'loss': 0.7829, 'grad_norm': 1.4248213993380496, 'learning_rate': 7.81680220930124e-07, 'epoch': 1.84}
+{'loss': 0.8174, 'grad_norm': 1.3701151768654425, 'learning_rate': 7.71883960969187e-07, 'epoch': 1.85}
+{'loss': 0.7681, 'grad_norm': 1.8655061742872212, 'learning_rate': 7.621107405567815e-07, 'epoch': 1.86}
+[INFO|trainer.py:4228] 2025-10-21 00:57:17,860 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 00:57:17,860 >>   Batch size = 2
+ 63%|█████████████████████████████████████████▏                       | 2200/3474 [8:03:01<3:31:01,  9.94s/it][INFO|trainer.py:4226] 2025-10-21 01:08:13,701 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.791337251663208, 'eval_runtime': 152.8722, 'eval_samples_per_second': 12.762, 'eval_steps_per_second': 0.798, 'epoch': 1.86}
+{'loss': 0.8031, 'grad_norm': 1.4468888426972921, 'learning_rate': 7.523615467808248e-07, 'epoch': 1.86}
+{'loss': 0.7941, 'grad_norm': 1.3758318938078795, 'learning_rate': 7.426373643025626e-07, 'epoch': 1.87}
+{'loss': 0.7951, 'grad_norm': 1.7620325311615652, 'learning_rate': 7.329391752571184e-07, 'epoch': 1.88}
+{'loss': 0.7914, 'grad_norm': 1.8965120514557399, 'learning_rate': 7.232679591542978e-07, 'epoch': 1.89}
+{'loss': 0.7616, 'grad_norm': 1.4975534552132723, 'learning_rate': 7.136246927796609e-07, 'epoch': 1.9}
+[INFO|trainer.py:4228] 2025-10-21 01:08:13,702 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 01:08:13,702 >>   Batch size = 2
+ 65%|██████████████████████████████████████████                       | 2250/3474 [8:13:59<3:26:20, 10.12s/it][INFO|trainer.py:4226] 2025-10-21 01:19:11,318 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7910605072975159, 'eval_runtime': 153.0274, 'eval_samples_per_second': 12.749, 'eval_steps_per_second': 0.797, 'epoch': 1.9}
+{'loss': 0.8092, 'grad_norm': 1.398033673756846, 'learning_rate': 7.04010350095865e-07, 'epoch': 1.91}
+{'loss': 0.7884, 'grad_norm': 1.6392716238987, 'learning_rate': 6.944259021442966e-07, 'epoch': 1.92}
+{'loss': 0.8087, 'grad_norm': 1.5475518615742005, 'learning_rate': 6.84872316946997e-07, 'epoch': 1.92}
+{'loss': 0.7751, 'grad_norm': 1.4711831716986576, 'learning_rate': 6.753505594088922e-07, 'epoch': 1.93}
+{'loss': 0.7656, 'grad_norm': 1.4383679054369976, 'learning_rate': 6.658615912203391e-07, 'epoch': 1.94}
+[INFO|trainer.py:4228] 2025-10-21 01:19:11,318 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 01:19:11,318 >>   Batch size = 2
+ 66%|███████████████████████████████████████████                      | 2300/3474 [8:24:53<3:20:40, 10.26s/it][INFO|trainer.py:4226] 2025-10-21 01:30:04,915 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7902203798294067, 'eval_runtime': 152.983, 'eval_samples_per_second': 12.753, 'eval_steps_per_second': 0.797, 'epoch': 1.94}
+{'loss': 0.783, 'grad_norm': 1.7491987339580581, 'learning_rate': 6.564063707599941e-07, 'epoch': 1.95}
+{'loss': 0.7978, 'grad_norm': 1.5364745216254891, 'learning_rate': 6.469858529980192e-07, 'epoch': 1.96}
+{'loss': 0.7838, 'grad_norm': 1.6082955276734905, 'learning_rate': 6.376009893996292e-07, 'epoch': 1.97}
+{'loss': 0.7618, 'grad_norm': 1.5859757099831713, 'learning_rate': 6.282527278289957e-07, 'epoch': 1.98}
+{'loss': 0.7959, 'grad_norm': 2.053147066009455, 'learning_rate': 6.189420124535131e-07, 'epoch': 1.98}
+[INFO|trainer.py:4228] 2025-10-21 01:30:04,915 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 01:30:04,915 >>   Batch size = 2
+ 68%|███████████████████████████████████████████▉                     | 2350/3474 [8:35:39<3:05:09,  9.88s/it][INFO|trainer.py:4226] 2025-10-21 01:40:50,738 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7891719937324524, 'eval_runtime': 152.9202, 'eval_samples_per_second': 12.758, 'eval_steps_per_second': 0.798, 'epoch': 1.98}
+{'loss': 0.8073, 'grad_norm': 1.4480593004767541, 'learning_rate': 6.096697836484382e-07, 'epoch': 1.99}
+{'loss': 0.7671, 'grad_norm': 1.5502501684755674, 'learning_rate': 6.004369779019123e-07, 'epoch': 2.0}
+{'loss': 0.7545, 'grad_norm': 1.5336256298320434, 'learning_rate': 5.912445277203785e-07, 'epoch': 2.01}
+{'loss': 0.7356, 'grad_norm': 1.6517552362666426, 'learning_rate': 5.820933615343975e-07, 'epoch': 2.02}
+{'loss': 0.7432, 'grad_norm': 1.5898157883105106, 'learning_rate': 5.729844036048783e-07, 'epoch': 2.03}
+[INFO|trainer.py:4228] 2025-10-21 01:40:50,738 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 01:40:50,738 >>   Batch size = 2
+ 69%|████████████████████████████████████████████▉                    | 2400/3474 [8:46:30<2:58:29,  9.97s/it][INFO|trainer.py:4226] 2025-10-21 01:51:41,883 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7934686541557312, 'eval_runtime': 152.9754, 'eval_samples_per_second': 12.754, 'eval_steps_per_second': 0.798, 'epoch': 2.03}
+{'loss': 0.7121, 'grad_norm': 1.571838112044643, 'learning_rate': 5.639185739297268e-07, 'epoch': 2.04}
+{'loss': 0.7317, 'grad_norm': 1.532770086914564, 'learning_rate': 5.548967881509275e-07, 'epoch': 2.04}
+{'loss': 0.7646, 'grad_norm': 1.4667064334917939, 'learning_rate': 5.459199574620657e-07, 'epoch': 2.05}
+{'loss': 0.74, 'grad_norm': 1.3882100071424655, 'learning_rate': 5.369889885162942e-07, 'epoch': 2.06}
+{'loss': 0.7412, 'grad_norm': 1.6558903986283982, 'learning_rate': 5.281047833347675e-07, 'epoch': 2.07}
+[INFO|trainer.py:4228] 2025-10-21 01:51:41,884 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 01:51:41,884 >>   Batch size = 2
+ 71%|█████████████████████████████████████████████▊                   | 2450/3474 [8:57:18<2:49:26,  9.93s/it][INFO|trainer.py:4226] 2025-10-21 02:02:30,470 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7948446869850159, 'eval_runtime': 152.9347, 'eval_samples_per_second': 12.757, 'eval_steps_per_second': 0.798, 'epoch': 2.07}
+{'loss': 0.7382, 'grad_norm': 1.4569506514639863, 'learning_rate': 5.192682392155318e-07, 'epoch': 2.08}
+{'loss': 0.7477, 'grad_norm': 1.5629054215826292, 'learning_rate': 5.10480248642904e-07, 'epoch': 2.09}
+{'loss': 0.7495, 'grad_norm': 1.5124239988583017, 'learning_rate': 5.01741699197328e-07, 'epoch': 2.1}
+{'loss': 0.7466, 'grad_norm': 1.6174153050405429, 'learning_rate': 4.930534734657309e-07, 'epoch': 2.11}
+{'loss': 0.7432, 'grad_norm': 1.6588477974888547, 'learning_rate': 4.844164489523844e-07, 'epoch': 2.11}
+[INFO|trainer.py:4228] 2025-10-21 02:02:30,470 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 02:02:30,470 >>   Batch size = 2
+ 72%|██████████████████████████████████████████████▊                  | 2500/3474 [9:08:06<2:46:56, 10.28s/it][INFO|trainer.py:4226] 2025-10-21 02:13:18,131 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7937849760055542, 'eval_runtime': 153.0955, 'eval_samples_per_second': 12.744, 'eval_steps_per_second': 0.797, 'epoch': 2.11}
+{'loss': 0.7447, 'grad_norm': 1.6286146138673874, 'learning_rate': 4.7583149799027334e-07, 'epoch': 2.12}
+{'loss': 0.74, 'grad_norm': 1.3128070397449618, 'learning_rate': 4.6729948765299464e-07, 'epoch': 2.13}
+{'loss': 0.745, 'grad_norm': 1.5852537081807367, 'learning_rate': 4.5882127966718086e-07, 'epoch': 2.14}
+{'loss': 0.7503, 'grad_norm': 1.4052062908588698, 'learning_rate': 4.5039773032546726e-07, 'epoch': 2.15}
+{'loss': 0.7848, 'grad_norm': 1.725848990031995, 'learning_rate': 4.42029690400009e-07, 'epoch': 2.16}
+[INFO|trainer.py:4228] 2025-10-21 02:13:18,131 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 02:13:18,131 >>   Batch size = 2
+ 72%|██████████████████████████████████████████████▊                  | 2500/3474 [9:10:39<2:46:56, 10.28s/it][INFO|trainer.py:3910] 2025-10-21 02:15:55,602 >> Saving model checkpoint to /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500
+[INFO|configuration_utils.py:420] 2025-10-21 02:15:55,627 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500/config.json
+{'eval_loss': 0.7935177087783813, 'eval_runtime': 152.858, 'eval_samples_per_second': 12.763, 'eval_steps_per_second': 0.798, 'epoch': 2.16}
+[INFO|configuration_utils.py:909] 2025-10-21 02:15:55,635 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500/generation_config.json
+[INFO|modeling_utils.py:2996] 2025-10-21 02:16:10,778 >> The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2491] 2025-10-21 02:16:10,787 >> tokenizer config file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2500] 2025-10-21 02:16:10,798 >> Special tokens file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500/special_tokens_map.json
+[2025-10-21 02:16:10,980] [INFO] [logging.py:128:log_dist] [Rank 0] [Torch] Checkpoint global_step2499 is about to be saved!
+[2025-10-21 02:16:11,483] [INFO] [logging.py:128:log_dist] [Rank 0] Saving model checkpoint: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500/global_step2499/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2025-10-21 02:16:11,483] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500/global_step2499/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2025-10-21 02:16:11,503] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500/global_step2499/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2025-10-21 02:16:11,519] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500/global_step2499/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2025-10-21 02:16:52,755] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500/global_step2499/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2025-10-21 02:16:52,767] [INFO] [engine.py:3536:_save_zero_checkpoint] zero checkpoint saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-2500/global_step2499/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2025-10-21 02:16:52,846] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step2499 is ready now!
+ 73%|███████████████████████████████████████████████▋                 | 2550/3474 [9:20:08<2:37:55, 10.25s/it][INFO|trainer.py:4226] 2025-10-21 02:25:19,888 >>
+{'loss': 0.7199, 'grad_norm': 1.5979742720623311, 'learning_rate': 4.337180050565497e-07, 'epoch': 2.17}
+{'loss': 0.7503, 'grad_norm': 1.7333830889023947, 'learning_rate': 4.2546351376906397e-07, 'epoch': 2.17}
+{'loss': 0.7586, 'grad_norm': 1.3684741633353166, 'learning_rate': 4.1726705023496924e-07, 'epoch': 2.18}
+{'loss': 0.7552, 'grad_norm': 1.6886808878797621, 'learning_rate': 4.091294422909225e-07, 'epoch': 2.19}
+{'loss': 0.7728, 'grad_norm': 1.535047131884015, 'learning_rate': 4.0105151182921273e-07, 'epoch': 2.2}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-10-21 02:25:19,888 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 02:25:19,888 >>   Batch size = 2
+ 75%|████████████████████████████████████████████████▋                | 2600/3474 [9:30:57<2:25:11,  9.97s/it][INFO|trainer.py:4226] 2025-10-21 02:36:09,271 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7934439182281494, 'eval_runtime': 152.8708, 'eval_samples_per_second': 12.762, 'eval_steps_per_second': 0.798, 'epoch': 2.2}
+{'loss': 0.7343, 'grad_norm': 1.6544753627337416, 'learning_rate': 3.930340747147458e-07, 'epoch': 2.21}
+{'loss': 0.7304, 'grad_norm': 1.5481072485748473, 'learning_rate': 3.8507794070264633e-07, 'epoch': 2.22}
+{'loss': 0.7636, 'grad_norm': 1.7027678293554085, 'learning_rate': 3.771839133564704e-07, 'epoch': 2.23}
+{'loss': 0.7477, 'grad_norm': 1.5456122259874587, 'learning_rate': 3.693527899670488e-07, 'epoch': 2.23}
+{'loss': 0.7467, 'grad_norm': 1.5591886016163774, 'learning_rate': 3.615853614719595e-07, 'epoch': 2.24}
+[INFO|trainer.py:4228] 2025-10-21 02:36:09,271 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 02:36:09,271 >>   Batch size = 2
+ 76%|█████████████████████████████████████████████████▌               | 2650/3474 [9:41:55<2:12:15,  9.63s/it][INFO|trainer.py:4226] 2025-10-21 02:47:07,615 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7930180430412292, 'eval_runtime': 152.9217, 'eval_samples_per_second': 12.758, 'eval_steps_per_second': 0.798, 'epoch': 2.24}
+{'loss': 0.7538, 'grad_norm': 1.7956141271654638, 'learning_rate': 3.538824123756433e-07, 'epoch': 2.25}
+{'loss': 0.7705, 'grad_norm': 1.6748038602850082, 'learning_rate': 3.4624472067017165e-07, 'epoch': 2.26}
+{'loss': 0.7409, 'grad_norm': 1.5136615917868181, 'learning_rate': 3.386730577566667e-07, 'epoch': 2.27}
+{'loss': 0.751, 'grad_norm': 1.3829105924545662, 'learning_rate': 3.3116818836739367e-07, 'epoch': 2.28}
+{'loss': 0.7673, 'grad_norm': 1.4889220244756087, 'learning_rate': 3.23730870488522e-07, 'epoch': 2.29}
+[INFO|trainer.py:4228] 2025-10-21 02:47:07,616 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 02:47:07,616 >>   Batch size = 2
+ 78%|██████████████████████████████████████████████████▌              | 2700/3474 [9:52:33<2:04:57,  9.69s/it][INFO|trainer.py:4226] 2025-10-21 02:57:45,346 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7935858368873596, 'eval_runtime': 152.9684, 'eval_samples_per_second': 12.754, 'eval_steps_per_second': 0.798, 'epoch': 2.29}
+{'loss': 0.7264, 'grad_norm': 1.504569826190308, 'learning_rate': 3.1636185528356806e-07, 'epoch': 2.3}
+{'loss': 0.7444, 'grad_norm': 1.4851654724857446, 'learning_rate': 3.090618870175312e-07, 'epoch': 2.3}
+{'loss': 0.7422, 'grad_norm': 1.5650336628892654, 'learning_rate': 3.018317029817201e-07, 'epoch': 2.31}
+{'loss': 0.7518, 'grad_norm': 1.546315227588806, 'learning_rate': 2.946720334192898e-07, 'epoch': 2.32}
+{'loss': 0.7369, 'grad_norm': 1.495282065649616, 'learning_rate': 2.8758360145148664e-07, 'epoch': 2.33}
+[INFO|trainer.py:4228] 2025-10-21 02:57:45,346 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 02:57:45,346 >>   Batch size = 2
+ 79%|██████████████████████████████████████████████████▋             | 2750/3474 [10:03:25<1:59:37,  9.91s/it][INFO|trainer.py:4226] 2025-10-21 03:08:36,747 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7934257388114929, 'eval_runtime': 152.9948, 'eval_samples_per_second': 12.752, 'eval_steps_per_second': 0.797, 'epoch': 2.33}
+{'loss': 0.7703, 'grad_norm': 1.4868535912697354, 'learning_rate': 2.8056712300461217e-07, 'epoch': 2.34}
+{'loss': 0.7519, 'grad_norm': 1.3992407830752158, 'learning_rate': 2.7362330673771796e-07, 'epoch': 2.35}
+{'loss': 0.7552, 'grad_norm': 1.607877483233871, 'learning_rate': 2.667528539710285e-07, 'epoch': 2.36}
+{'loss': 0.7705, 'grad_norm': 1.5111394035937862, 'learning_rate': 2.5995645861511117e-07, 'epoch': 2.36}
+{'loss': 0.7588, 'grad_norm': 1.5120522088464141, 'learning_rate': 2.5323480710078995e-07, 'epoch': 2.37}
+[INFO|trainer.py:4228] 2025-10-21 03:08:36,748 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 03:08:36,748 >>   Batch size = 2
+ 81%|███████████████████████████████████████████████████▌            | 2800/3474 [10:14:25<2:00:05, 10.69s/it][INFO|trainer.py:4226] 2025-10-21 03:19:37,686 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7929667830467224, 'eval_runtime': 152.8834, 'eval_samples_per_second': 12.761, 'eval_steps_per_second': 0.798, 'epoch': 2.37}
+{'loss': 0.7352, 'grad_norm': 1.7882953886208057, 'learning_rate': 2.465885783098166e-07, 'epoch': 2.38}
+{'loss': 0.7601, 'grad_norm': 1.5576658237025276, 'learning_rate': 2.400184435063055e-07, 'epoch': 2.39}
+{'loss': 0.7275, 'grad_norm': 1.604400992720593, 'learning_rate': 2.335250662689341e-07, 'epoch': 2.4}
+{'loss': 0.7493, 'grad_norm': 1.5103493116790943, 'learning_rate': 2.2710910242392466e-07, 'epoch': 2.41}
+{'loss': 0.7501, 'grad_norm': 1.4584054265400825, 'learning_rate': 2.2077119997880456e-07, 'epoch': 2.42}
+[INFO|trainer.py:4228] 2025-10-21 03:19:37,686 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 03:19:37,687 >>   Batch size = 2
+ 82%|████████████████████████████████████████████████████▌           | 2850/3474 [10:25:25<1:38:56,  9.51s/it][INFO|trainer.py:4226] 2025-10-21 03:30:37,162 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7923988103866577, 'eval_runtime': 152.8571, 'eval_samples_per_second': 12.764, 'eval_steps_per_second': 0.798, 'epoch': 2.42}
+{'loss': 0.7603, 'grad_norm': 1.4192377693903167, 'learning_rate': 2.1451199905695784e-07, 'epoch': 2.42}
+{'loss': 0.7576, 'grad_norm': 1.6398774300436325, 'learning_rate': 2.083321318329747e-07, 'epoch': 2.43}
+{'loss': 0.7535, 'grad_norm': 1.507342335206474, 'learning_rate': 2.0223222246880078e-07, 'epoch': 2.44}
+{'loss': 0.7415, 'grad_norm': 1.3578203676200369, 'learning_rate': 1.962128870506984e-07, 'epoch': 2.45}
+{'loss': 0.7467, 'grad_norm': 1.5935844034871618, 'learning_rate': 1.9027473352702206e-07, 'epoch': 2.46}
+[INFO|trainer.py:4228] 2025-10-21 03:30:37,162 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 03:30:37,162 >>   Batch size = 2
+ 83%|█████████████████████████████████████████████████████▍          | 2900/3474 [10:36:20<1:34:08,  9.84s/it][INFO|trainer.py:4226] 2025-10-21 03:41:32,423 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7928974628448486, 'eval_runtime': 152.96, 'eval_samples_per_second': 12.755, 'eval_steps_per_second': 0.798, 'epoch': 2.46}
+{'loss': 0.7131, 'grad_norm': 1.5598106824833424, 'learning_rate': 1.8441836164681502e-07, 'epoch': 2.47}
+{'loss': 0.7518, 'grad_norm': 1.5612741463420274, 'learning_rate': 1.7864436289923713e-07, 'epoch': 2.48}
+{'loss': 0.7495, 'grad_norm': 1.7540828378972408, 'learning_rate': 1.7295332045382238e-07, 'epoch': 2.49}
+{'loss': 0.7226, 'grad_norm': 1.568076245705963, 'learning_rate': 1.6734580910158248e-07, 'epoch': 2.49}
+{'loss': 0.7692, 'grad_norm': 1.5457695635645856, 'learning_rate': 1.6182239519694983e-07, 'epoch': 2.5}
+[INFO|trainer.py:4228] 2025-10-21 03:41:32,423 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 03:41:32,423 >>   Batch size = 2
+ 85%|██████████████████████████████████████████████████████▎         | 2950/3474 [10:47:06<1:26:19,  9.88s/it][INFO|trainer.py:4226] 2025-10-21 03:52:17,755 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7922881841659546, 'eval_runtime': 152.8489, 'eval_samples_per_second': 12.764, 'eval_steps_per_second': 0.798, 'epoch': 2.5}
+{'loss': 0.7679, 'grad_norm': 1.5479598908238963, 'learning_rate': 1.5638363660057819e-07, 'epoch': 2.51}
+{'loss': 0.7414, 'grad_norm': 1.428932398142863, 'learning_rate': 1.5103008262299943e-07, 'epoch': 2.52}
+{'loss': 0.7736, 'grad_norm': 1.477575823327879, 'learning_rate': 1.4576227396914197e-07, 'epoch': 2.53}
+{'loss': 0.7499, 'grad_norm': 1.3829551369779252, 'learning_rate': 1.405807426837222e-07, 'epoch': 2.54}
+{'loss': 0.7538, 'grad_norm': 1.7258840715287007, 'learning_rate': 1.3548601209750621e-07, 'epoch': 2.55}
+[INFO|trainer.py:4228] 2025-10-21 03:52:17,755 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 03:52:17,755 >>   Batch size = 2
+ 86%|███████████████████████████████████████████████████████▎        | 3000/3474 [10:58:01<1:17:32,  9.81s/it][INFO|trainer.py:4226] 2025-10-21 04:03:13,156 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7919955253601074, 'eval_runtime': 152.943, 'eval_samples_per_second': 12.756, 'eval_steps_per_second': 0.798, 'epoch': 2.55}
+{'loss': 0.7789, 'grad_norm': 1.483767903981478, 'learning_rate': 1.304785967744545e-07, 'epoch': 2.55}
+{'loss': 0.7198, 'grad_norm': 1.4913195703926343, 'learning_rate': 1.255590024597526e-07, 'epoch': 2.56}
+{'loss': 0.7707, 'grad_norm': 1.3271448062351754, 'learning_rate': 1.2072772602872893e-07, 'epoch': 2.57}
+{'loss': 0.7403, 'grad_norm': 1.5224151195518463, 'learning_rate': 1.1598525543667348e-07, 'epoch': 2.58}
+{'loss': 0.7542, 'grad_norm': 1.5886126543442611, 'learning_rate': 1.1133206966955211e-07, 'epoch': 2.59}
+[INFO|trainer.py:4228] 2025-10-21 04:03:13,156 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 04:03:13,156 >>   Batch size = 2
+ 86%|███████████████████████████████████████████████████████▎        | 3000/3474 [11:00:34<1:17:32,  9.81s/it][INFO|trainer.py:3910] 2025-10-21 04:05:50,580 >> Saving model checkpoint to /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000
+[INFO|configuration_utils.py:420] 2025-10-21 04:05:50,604 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000/config.json
+{'eval_loss': 0.7918747067451477, 'eval_runtime': 152.8865, 'eval_samples_per_second': 12.761, 'eval_steps_per_second': 0.798, 'epoch': 2.59}
+[INFO|configuration_utils.py:909] 2025-10-21 04:05:50,613 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000/generation_config.json
+[INFO|modeling_utils.py:2996] 2025-10-21 04:06:05,830 >> The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2491] 2025-10-21 04:06:05,839 >> tokenizer config file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2500] 2025-10-21 04:06:05,848 >> Special tokens file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000/special_tokens_map.json
+[2025-10-21 04:06:06,026] [INFO] [logging.py:128:log_dist] [Rank 0] [Torch] Checkpoint global_step2999 is about to be saved!
+[2025-10-21 04:06:06,405] [INFO] [logging.py:128:log_dist] [Rank 0] Saving model checkpoint: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000/global_step2999/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2025-10-21 04:06:06,405] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000/global_step2999/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2025-10-21 04:06:06,425] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000/global_step2999/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2025-10-21 04:06:06,430] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000/global_step2999/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2025-10-21 04:06:46,006] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000/global_step2999/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2025-10-21 04:06:46,016] [INFO] [engine.py:3536:_save_zero_checkpoint] zero checkpoint saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3000/global_step2999/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2025-10-21 04:06:46,798] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step2999 is ready now!
+ 88%|████████████████████████████████████████████████████████▏       | 3050/3474 [11:09:52<1:09:50,  9.88s/it][INFO|trainer.py:4226] 2025-10-21 04:15:03,728 >>
+{'loss': 0.7704, 'grad_norm': 1.447227890968324, 'learning_rate': 1.0676863869563068e-07, 'epoch': 2.6}
+{'loss': 0.7684, 'grad_norm': 1.435477276341176, 'learning_rate': 1.0229542341800867e-07, 'epoch': 2.61}
+{'loss': 0.7506, 'grad_norm': 1.483303089785474, 'learning_rate': 9.791287562806749e-08, 'epoch': 2.61}
+{'loss': 0.7319, 'grad_norm': 1.411483781451311, 'learning_rate': 9.362143795984146e-08, 'epoch': 2.62}
+{'loss': 0.7537, 'grad_norm': 1.3756180470662076, 'learning_rate': 8.942154384530987e-08, 'epoch': 2.63}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-10-21 04:15:03,728 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 04:15:03,728 >>   Batch size = 2
+ 89%|█████████████████████████████████████████████████████████       | 3100/3474 [11:20:47<1:00:59,  9.78s/it][INFO|trainer.py:4226] 2025-10-21 04:25:58,890 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7920135259628296, 'eval_runtime': 152.9837, 'eval_samples_per_second': 12.753, 'eval_steps_per_second': 0.797, 'epoch': 2.63}
+{'loss': 0.7502, 'grad_norm': 1.6433100135148961, 'learning_rate': 8.531361747062271e-08, 'epoch': 2.64}
+{'loss': 0.7238, 'grad_norm': 1.824447070509241, 'learning_rate': 8.129807373325681e-08, 'epoch': 2.65}
+{'loss': 0.7432, 'grad_norm': 1.5162897262460704, 'learning_rate': 7.737531820011212e-08, 'epoch': 2.66}
+{'loss': 0.729, 'grad_norm': 1.4675696619039444, 'learning_rate': 7.354574706655037e-08, 'epoch': 2.67}
+{'loss': 0.7379, 'grad_norm': 1.5325768199529894, 'learning_rate': 6.98097471163781e-08, 'epoch': 2.68}
+[INFO|trainer.py:4228] 2025-10-21 04:25:58,891 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 04:25:58,891 >>   Batch size = 2
+ 91%|███████████████████████████████████████████████████████████▊      | 3150/3474 [11:31:40<55:11, 10.22s/it][INFO|trainer.py:4226] 2025-10-21 04:36:52,133 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7915923595428467, 'eval_runtime': 152.8112, 'eval_samples_per_second': 12.767, 'eval_steps_per_second': 0.798, 'epoch': 2.68}
+{'loss': 0.7386, 'grad_norm': 1.5521180564105, 'learning_rate': 6.616769568278302e-08, 'epoch': 2.68}
+{'loss': 0.7547, 'grad_norm': 1.4356307169307823, 'learning_rate': 6.261996061022334e-08, 'epoch': 2.69}
+{'loss': 0.7447, 'grad_norm': 1.4181685740179724, 'learning_rate': 5.916690021727499e-08, 'epoch': 2.7}
+{'loss': 0.762, 'grad_norm': 1.5651267361050312, 'learning_rate': 5.580886326044387e-08, 'epoch': 2.71}
+{'loss': 0.7571, 'grad_norm': 1.6767358339747718, 'learning_rate': 5.2546188898938583e-08, 'epoch': 2.72}
+[INFO|trainer.py:4228] 2025-10-21 04:36:52,133 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 04:36:52,133 >>   Batch size = 2
+ 92%|████████████████████████████████████████████████████████████▊     | 3200/3474 [11:42:35<46:14, 10.13s/it][INFO|trainer.py:4226] 2025-10-21 04:47:47,314 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7916194796562195, 'eval_runtime': 152.9618, 'eval_samples_per_second': 12.755, 'eval_steps_per_second': 0.798, 'epoch': 2.72}
+{'loss': 0.758, 'grad_norm': 1.6037430689999717, 'learning_rate': 4.9379206660418395e-08, 'epoch': 2.73}
+{'loss': 0.7407, 'grad_norm': 1.5518767534178284, 'learning_rate': 4.630823640770953e-08, 'epoch': 2.74}
+{'loss': 0.7737, 'grad_norm': 1.506222836865495, 'learning_rate': 4.333358830649958e-08, 'epoch': 2.74}
+{'loss': 0.7295, 'grad_norm': 1.560790944382538, 'learning_rate': 4.04555627940123e-08, 'epoch': 2.75}
+{'loss': 0.7528, 'grad_norm': 1.5318584574396021, 'learning_rate': 3.767445054866114e-08, 'epoch': 2.76}
+[INFO|trainer.py:4228] 2025-10-21 04:47:47,314 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 04:47:47,315 >>   Batch size = 2
+ 94%|█████████████████████████████████████████████████████████████▋    | 3250/3474 [11:53:20<35:39,  9.55s/it][INFO|trainer.py:4226] 2025-10-21 04:58:32,176 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7916192412376404, 'eval_runtime': 152.8515, 'eval_samples_per_second': 12.764, 'eval_steps_per_second': 0.798, 'epoch': 2.76}
+{'loss': 0.7453, 'grad_norm': 1.509379945079985, 'learning_rate': 3.499053246069361e-08, 'epoch': 2.77}
+{'loss': 0.7516, 'grad_norm': 1.5106053822637688, 'learning_rate': 3.2404079603819525e-08, 'epoch': 2.78}
+{'loss': 0.7512, 'grad_norm': 1.6351015706969965, 'learning_rate': 2.9915353207834e-08, 'epoch': 2.79}
+{'loss': 0.7862, 'grad_norm': 1.453971583221415, 'learning_rate': 2.752460463223305e-08, 'epoch': 2.8}
+{'loss': 0.7434, 'grad_norm': 1.4345630023252574, 'learning_rate': 2.5232075340826164e-08, 'epoch': 2.8}
+[INFO|trainer.py:4228] 2025-10-21 04:58:32,176 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 04:58:32,176 >>   Batch size = 2
+ 95%|██████████████████████████████████████████████████████████████▋   | 3300/3474 [12:04:23<29:39, 10.23s/it][INFO|trainer.py:4226] 2025-10-21 05:09:35,503 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7914901375770569, 'eval_runtime': 152.9608, 'eval_samples_per_second': 12.755, 'eval_steps_per_second': 0.798, 'epoch': 2.8}
+{'loss': 0.7568, 'grad_norm': 1.5321232966030696, 'learning_rate': 2.3037996877349308e-08, 'epoch': 2.81}
+{'loss': 0.764, 'grad_norm': 1.3558835932599005, 'learning_rate': 2.09425908420785e-08, 'epoch': 2.82}
+{'loss': 0.7583, 'grad_norm': 1.599536275348147, 'learning_rate': 1.8946068869448716e-08, 'epoch': 2.83}
+{'loss': 0.7191, 'grad_norm': 1.5536383404184775, 'learning_rate': 1.7048632606679213e-08, 'epoch': 2.84}
+{'loss': 0.7547, 'grad_norm': 1.6580755641403213, 'learning_rate': 1.5250473693406485e-08, 'epoch': 2.85}
+[INFO|trainer.py:4228] 2025-10-21 05:09:35,503 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 05:09:35,503 >>   Batch size = 2
+ 96%|███████████████████████████████████████████████████████████████▋  | 3350/3474 [12:15:10<20:07,  9.73s/it][INFO|trainer.py:4226] 2025-10-21 05:20:21,978 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.791477620601654, 'eval_runtime': 152.7743, 'eval_samples_per_second': 12.77, 'eval_steps_per_second': 0.799, 'epoch': 2.85}
+{'loss': 0.7254, 'grad_norm': 1.5672177204653115, 'learning_rate': 1.3551773742329742e-08, 'epoch': 2.86}
+{'loss': 0.7664, 'grad_norm': 1.572276542856158, 'learning_rate': 1.1952704320867591e-08, 'epoch': 2.86}
+{'loss': 0.7172, 'grad_norm': 1.4902692232731425, 'learning_rate': 1.0453426933830001e-08, 'epoch': 2.87}
+{'loss': 0.7338, 'grad_norm': 1.500455073484022, 'learning_rate': 9.054093007106467e-09, 'epoch': 2.88}
+{'loss': 0.7525, 'grad_norm': 1.3629766710964368, 'learning_rate': 7.75484387237213e-09, 'epoch': 2.89}
+[INFO|trainer.py:4228] 2025-10-21 05:20:21,978 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 05:20:21,978 >>   Batch size = 2
+ 98%|████████████████████████████████████████████████████████████████▌ | 3400/3474 [12:26:06<12:11,  9.88s/it][INFO|trainer.py:4226] 2025-10-21 05:31:18,338 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7915471196174622, 'eval_runtime': 152.9255, 'eval_samples_per_second': 12.758, 'eval_steps_per_second': 0.798, 'epoch': 2.89}
+{'loss': 0.7712, 'grad_norm': 1.5827472309803143, 'learning_rate': 6.555810752813307e-09, 'epoch': 2.9}
+{'loss': 0.7423, 'grad_norm': 1.5218023036224633, 'learning_rate': 5.457114749874092e-09, 'epoch': 2.91}
+{'loss': 0.765, 'grad_norm': 1.5759859949753465, 'learning_rate': 4.458866831025143e-09, 'epoch': 2.92}
+{'loss': 0.7597, 'grad_norm': 1.7059100595647725, 'learning_rate': 3.56116781855631e-09, 'epoch': 2.93}
+{'loss': 0.762, 'grad_norm': 1.4198829657142202, 'learning_rate': 2.764108379393115e-09, 'epoch': 2.93}
+[INFO|trainer.py:4228] 2025-10-21 05:31:18,338 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 05:31:18,338 >>   Batch size = 2
+ 99%|█████████████████████████████████████████████████████████████████▌| 3450/3474 [12:37:09<04:06, 10.29s/it][INFO|trainer.py:4226] 2025-10-21 05:42:21,001 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7916139364242554, 'eval_runtime': 152.7335, 'eval_samples_per_second': 12.774, 'eval_steps_per_second': 0.799, 'epoch': 2.93}
+{'loss': 0.7274, 'grad_norm': 1.3957428707800688, 'learning_rate': 2.0677690159401905e-09, 'epoch': 2.94}
+{'loss': 0.7239, 'grad_norm': 1.4979538232416139, 'learning_rate': 1.47222005794978e-09, 'epoch': 2.95}
+{'loss': 0.7419, 'grad_norm': 1.3733975697097534, 'learning_rate': 9.775216554192e-10, 'epoch': 2.96}
+{'loss': 0.779, 'grad_norm': 1.6436215024084146, 'learning_rate': 5.837237725155874e-10, 'epoch': 2.97}
+{'loss': 0.7457, 'grad_norm': 1.4581279335496435, 'learning_rate': 2.908661825289371e-10, 'epoch': 2.98}
+[INFO|trainer.py:4228] 2025-10-21 05:42:21,001 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 05:42:21,001 >>   Batch size = 2
+100%|██████████████████████████████████████████████████████████████████| 3474/3474 [12:43:44<00:00, 10.61s/it][INFO|trainer.py:3910] 2025-10-21 05:49:00,595 >> Saving model checkpoint to /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474
+[INFO|configuration_utils.py:420] 2025-10-21 05:49:00,619 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474/config.json
+{'eval_loss': 0.7914614677429199, 'eval_runtime': 152.8321, 'eval_samples_per_second': 12.766, 'eval_steps_per_second': 0.798, 'epoch': 2.98}
+{'loss': 0.7378, 'grad_norm': 1.55160604861013, 'learning_rate': 9.897846385586994e-11, 'epoch': 2.99}
+{'loss': 0.7386, 'grad_norm': 1.5374083415268203, 'learning_rate': 8.079997011800621e-12, 'epoch': 2.99}
+[INFO|configuration_utils.py:909] 2025-10-21 05:49:00,628 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474/generation_config.json
+[INFO|modeling_utils.py:2996] 2025-10-21 05:49:15,864 >> The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2491] 2025-10-21 05:49:15,873 >> tokenizer config file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2500] 2025-10-21 05:49:15,883 >> Special tokens file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474/special_tokens_map.json
+[2025-10-21 05:49:16,426] [INFO] [logging.py:128:log_dist] [Rank 0] [Torch] Checkpoint global_step3473 is about to be saved!
+[2025-10-21 05:49:16,440] [INFO] [logging.py:128:log_dist] [Rank 0] Saving model checkpoint: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474/global_step3473/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2025-10-21 05:49:16,440] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474/global_step3473/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2025-10-21 05:49:16,466] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474/global_step3473/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2025-10-21 05:49:16,524] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474/global_step3473/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2025-10-21 05:49:57,460] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474/global_step3473/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2025-10-21 05:49:57,470] [INFO] [engine.py:3536:_save_zero_checkpoint] zero checkpoint saved /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/checkpoint-3474/global_step3473/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2025-10-21 05:49:57,483] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step3473 is ready now!
+[INFO|trainer.py:2643] 2025-10-21 05:49:57,588 >>
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+100%|██████████████████████████████████████████████████████████████████| 3474/3474 [12:44:45<00:00, 13.21s/it]
+{'train_runtime': 45887.9772, 'train_samples_per_second': 2.423, 'train_steps_per_second': 0.076, 'train_loss': 0.8177175552047528, 'epoch': 3.0}
+[INFO|trainer.py:3910] 2025-10-21 05:50:02,364 >> Saving model checkpoint to /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020
+[INFO|configuration_utils.py:420] 2025-10-21 05:50:02,374 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/config.json
+[INFO|configuration_utils.py:909] 2025-10-21 05:50:02,406 >> Configuration saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/generation_config.json
+[INFO|modeling_utils.py:2996] 2025-10-21 05:50:18,389 >> The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2491] 2025-10-21 05:50:18,421 >> tokenizer config file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2500] 2025-10-21 05:50:18,451 >> Special tokens file saved in /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/special_tokens_map.json
+***** train metrics *****
+  epoch                    =      2.9978
+  total_flos               =    636111GF
+  train_loss               =      0.8177
+  train_runtime            = 12:44:47.97
+  train_samples_per_second =       2.423
+  train_steps_per_second   =       0.076
+Figure saved at: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/training_loss.png
+Figure saved at: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020/training_eval_loss.png
+[WARNING|2025-10-21 05:50:19] llamafactory.extras.ploting:162 >> No metric eval_accuracy to plot.
+[INFO|trainer.py:4226] 2025-10-21 05:50:19,642 >>
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-10-21 05:50:19,642 >>   Num examples = 1951
+[INFO|trainer.py:4231] 2025-10-21 05:50:19,642 >>   Batch size = 2
+100%|███████████████████████████████████████████████████████████████████████| 122/122 [02:31<00:00,  1.25s/it]
+***** eval metrics *****
+  epoch                   =     2.9978
+  eval_loss               =     0.7916
+  eval_runtime            = 0:02:33.05
+  eval_samples_per_second =     12.747
+  eval_steps_per_second   =      0.797
+[INFO|modelcard.py:449] 2025-10-21 05:52:52,784 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}

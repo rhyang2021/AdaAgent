@@ -1,0 +1,13 @@
+  0%|                                                                                 | 0/555 [00:00<?, ?it/s]/root/miniconda3/envs/lf/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+  9%|██████▍                                                                 | 50/555 [02:13<19:27,  2.31s/it][INFO|trainer.py:3819] 2025-06-30 06:22:51,384 >>
+[2025-06-30 06:20:50,311] [WARNING] [stage3.py:2069:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+[2025-06-30 06:20:59,044] [WARNING] [stage3.py:2069:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+{'loss': 0.9469, 'grad_norm': 11.971543162468754, 'learning_rate': 3.5714285714285716e-07, 'epoch': 0.09}
+{'loss': 0.8966, 'grad_norm': 4.92799216756206, 'learning_rate': 7.142857142857143e-07, 'epoch': 0.18}
+{'loss': 0.7837, 'grad_norm': 2.968088525325212, 'learning_rate': 1.0714285714285714e-06, 'epoch': 0.27}
+{'loss': 0.7281, 'grad_norm': 2.9032830815095827, 'learning_rate': 1.4285714285714286e-06, 'epoch': 0.36}
+{'loss': 0.7183, 'grad_norm': 2.2067889295370433, 'learning_rate': 1.7857142857142857e-06, 'epoch': 0.45}
+***** Running Evaluation *****
+[INFO|trainer.py:3821] 2025-06-30 06:22:51,385 >>   Num examples = 47
+[INFO|trainer.py:3824] 2025-06-30 06:22:51,385 >>   Batch size = 2

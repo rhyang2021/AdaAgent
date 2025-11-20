@@ -1,0 +1,15 @@
+{"time":"2025-08-10T15:05:06.482346049+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20250810_150504-fiybaoik/logs/debug-core.log"}
+{"time":"2025-08-10T15:05:07.854274938+08:00","level":"INFO","msg":"created new stream","id":"fiybaoik"}
+{"time":"2025-08-10T15:05:07.854497934+08:00","level":"INFO","msg":"stream: started","id":"fiybaoik"}
+{"time":"2025-08-10T15:05:07.854521353+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"fiybaoik"}
+{"time":"2025-08-10T15:05:07.854537433+08:00","level":"INFO","msg":"handler: started","stream_id":"fiybaoik"}
+{"time":"2025-08-10T15:05:07.854594272+08:00","level":"INFO","msg":"sender: started","stream_id":"fiybaoik"}
+{"time":"2025-08-10T15:05:08.944943103+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-10T19:10:49.644675515+08:00","level":"INFO","msg":"stream: closing","id":"fiybaoik"}
+{"time":"2025-08-10T19:10:49.644715184+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-10T19:10:49.645511279+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-10T19:10:50.784975512+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-10T19:10:51.160425881+08:00","level":"INFO","msg":"handler: closed","stream_id":"fiybaoik"}
+{"time":"2025-08-10T19:10:51.160447781+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fiybaoik"}
+{"time":"2025-08-10T19:10:51.160512169+08:00","level":"INFO","msg":"sender: closed","stream_id":"fiybaoik"}
+{"time":"2025-08-10T19:10:51.161103258+08:00","level":"INFO","msg":"stream: closed","id":"fiybaoik"}

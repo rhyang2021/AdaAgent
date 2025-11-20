@@ -1,0 +1,33 @@
+{"time":"2025-08-10T05:42:19.257475188+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20250810_054217-cj5p3zrj/logs/debug-core.log"}
+{"time":"2025-08-10T05:42:19.521864424+08:00","level":"INFO","msg":"created new stream","id":"cj5p3zrj"}
+{"time":"2025-08-10T05:42:19.522010261+08:00","level":"INFO","msg":"handler: started","stream_id":"cj5p3zrj"}
+{"time":"2025-08-10T05:42:19.52205927+08:00","level":"INFO","msg":"stream: started","id":"cj5p3zrj"}
+{"time":"2025-08-10T05:42:19.522087979+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"cj5p3zrj"}
+{"time":"2025-08-10T05:42:19.522342754+08:00","level":"INFO","msg":"sender: started","stream_id":"cj5p3zrj"}
+{"time":"2025-08-10T05:42:20.164442793+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-10T09:25:37.364507224+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/nl_agent_learning/llamafactory/cj5p3zrj/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-08-10T11:23:22.575999012+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/nl_agent_learning/llamafactory/cj5p3zrj/file_stream","body":"{\"error\":\"dial tcp 35.226.229.132:3307: connect: connection refused\"}"}
+{"time":"2025-08-10T11:23:26.162201899+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/nl_agent_learning/llamafactory/cj5p3zrj/file_stream","body":"{\"error\":\"dial tcp 35.226.229.132:3307: connect: connection refused\"}"}
+{"time":"2025-08-10T11:23:31.907646818+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"dial tcp 35.226.229.132:3307: connect: connection refused\",\"path\":[\"project\"]}],\"data\":{\"project\":null}}"}
+{"time":"2025-08-10T11:24:04.222414658+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-10T11:24:26.096599305+08:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/nl_agent_learning/llamafactory/cj5p3zrj/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-10T11:24:38.27693213+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-08-10T11:25:18.000261607+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-08-10T11:25:30.289254955+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/nl_agent_learning/llamafactory/cj5p3zrj/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-08-10T11:26:11.825006991+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-10T11:26:45.148032743+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/nl_agent_learning/llamafactory/cj5p3zrj/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-08-10T11:27:18.642371131+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-10T11:28:15.037111749+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/nl_agent_learning/llamafactory/cj5p3zrj/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-08-10T11:28:48.66955536+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-10T11:30:10.3742776+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/nl_agent_learning/llamafactory/cj5p3zrj/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-08-10T11:30:18.696390955+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-10T11:31:13.870038267+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/nl_agent_learning/llamafactory/cj5p3zrj/file_stream","body":"{\"error\":\"dial tcp 35.226.229.132:3307: connect: connection refused\"}"}
+{"time":"2025-08-10T11:31:48.697218751+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-10T12:37:16.642948177+08:00","level":"INFO","msg":"stream: closing","id":"cj5p3zrj"}
+{"time":"2025-08-10T12:37:16.642979006+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-10T12:37:16.643993286+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-10T12:37:18.18250542+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-10T12:37:18.580123999+08:00","level":"INFO","msg":"handler: closed","stream_id":"cj5p3zrj"}
+{"time":"2025-08-10T12:37:18.580156828+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cj5p3zrj"}
+{"time":"2025-08-10T12:37:18.580171748+08:00","level":"INFO","msg":"sender: closed","stream_id":"cj5p3zrj"}
+{"time":"2025-08-10T12:37:18.580836785+08:00","level":"INFO","msg":"stream: closed","id":"cj5p3zrj"}

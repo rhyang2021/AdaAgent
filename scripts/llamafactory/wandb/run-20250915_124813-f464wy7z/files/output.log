@@ -1,0 +1,269 @@
+  1%|▌                                                                   | 50/5934 [07:12<13:25:27,  8.21s/it][INFO|trainer.py:4226] 2025-09-15 12:55:27,690 >>
+{'loss': 1.491, 'grad_norm': 18.978655217720796, 'learning_rate': 3.367003367003367e-08, 'epoch': 0.01}
+{'loss': 1.5237, 'grad_norm': 23.028528046783123, 'learning_rate': 6.734006734006734e-08, 'epoch': 0.01}
+{'loss': 1.4337, 'grad_norm': 27.229037082949034, 'learning_rate': 1.01010101010101e-07, 'epoch': 0.02}
+{'loss': 1.512, 'grad_norm': 17.00987841808686, 'learning_rate': 1.3468013468013468e-07, 'epoch': 0.02}
+{'loss': 1.4917, 'grad_norm': 16.819971478233835, 'learning_rate': 1.6835016835016837e-07, 'epoch': 0.03}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-09-15 12:55:27,691 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-15 12:55:27,691 >>   Batch size = 2
+  2%|█▏                                                                 | 100/5934 [18:41<14:12:15,  8.77s/it][INFO|trainer.py:4226] 2025-09-15 13:06:56,782 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 1.3881362676620483, 'eval_runtime': 258.6579, 'eval_samples_per_second': 6.441, 'eval_steps_per_second': 0.406, 'epoch': 0.03}
+{'loss': 1.3372, 'grad_norm': 12.280503475974752, 'learning_rate': 2.02020202020202e-07, 'epoch': 0.03}
+{'loss': 1.2748, 'grad_norm': 10.627564368908404, 'learning_rate': 2.3569023569023568e-07, 'epoch': 0.04}
+{'loss': 1.2205, 'grad_norm': 8.120462011766113, 'learning_rate': 2.6936026936026936e-07, 'epoch': 0.04}
+{'loss': 1.2142, 'grad_norm': 9.85716783810938, 'learning_rate': 3.0303030303030305e-07, 'epoch': 0.05}
+{'loss': 1.155, 'grad_norm': 7.506403546959922, 'learning_rate': 3.3670033670033673e-07, 'epoch': 0.05}
+[INFO|trainer.py:4228] 2025-09-15 13:06:56,782 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-15 13:06:56,782 >>   Batch size = 2
+                                                                                                              Traceback (most recent call last):
+  File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module> 85/105 [03:18<00:43,  2.17s/it]
+    launch()
+  File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+    run_exp()
+  File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 92, in run_exp
+    _training_function(config={"args": args, "callbacks": callbacks})
+  File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 66, in _training_function
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 101, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2171, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2598, in _inner_training_loop
+    self._maybe_log_save_evaluate(
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 3071, in _maybe_log_save_evaluate
+    metrics = self._evaluate(trial, ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 3025, in _evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer_seq2seq.py", line 197, in evaluate
+    return super().evaluate(eval_dataset, ignore_keys=ignore_keys, metric_key_prefix=metric_key_prefix)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 4073, in evaluate
+    output = eval_loop(
+             ^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 4267, in evaluation_loop
+    losses, logits, labels = self.prediction_step(model, inputs, prediction_loss_only, ignore_keys=ignore_keys)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/LLaMA-Factory/src/llamafactory/train/sft/trainer.py", line 110, in prediction_step
+    loss, generated_tokens, _ = super().prediction_step(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer_seq2seq.py", line 295, in prediction_step
+    return super().prediction_step(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 4483, in prediction_step
+    loss, outputs = self.compute_loss(model, inputs, return_outputs=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 3731, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in inner
+    result = forward_call(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 819, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in inner
+    result = forward_call(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 577, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in inner
+    result = forward_call(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 259, in forward
+    hidden_states, self_attn_weights = self.self_attn(
+                                       ^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in inner
+    result = forward_call(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 163, in forward
+    value_states = self.v_proj(hidden_states).view(hidden_shape).transpose(1, 2)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in inner
+    args_result = hook(self, args)
+                  ^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 275, in _pre_forward_module_hook
+    self.pre_sub_module_forward_function(module)
+  File "/data/miniforge/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 449, in pre_sub_module_forward_function
+    param_coordinator.fetch_sub_module(sub_module, forward=True)
+  File "/data/miniforge/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 632, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/zero/partitioned_param_coordinator.py", line 323, in fetch_sub_module
+    self.__ongoing_fetch_events.popleft().synchronize()
+  File "/data/miniforge/lib/python3.12/site-packages/torch/cuda/streams.py", line 225, in synchronize
+    super().synchronize()
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+[rank0]:     launch()
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+[rank0]:     run_exp()
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 92, in run_exp
+[rank0]:     _training_function(config={"args": args, "callbacks": callbacks})
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 66, in _training_function
+[rank0]:     run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 101, in run_sft
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+[rank0]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2171, in train
+[rank0]:     return inner_training_loop(
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2598, in _inner_training_loop
+[rank0]:     self._maybe_log_save_evaluate(
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 3071, in _maybe_log_save_evaluate
+[rank0]:     metrics = self._evaluate(trial, ignore_keys_for_eval)
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 3025, in _evaluate
+[rank0]:     metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer_seq2seq.py", line 197, in evaluate
+[rank0]:     return super().evaluate(eval_dataset, ignore_keys=ignore_keys, metric_key_prefix=metric_key_prefix)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 4073, in evaluate
+[rank0]:     output = eval_loop(
+[rank0]:              ^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 4267, in evaluation_loop
+[rank0]:     losses, logits, labels = self.prediction_step(model, inputs, prediction_loss_only, ignore_keys=ignore_keys)
+[rank0]:                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/train/sft/trainer.py", line 110, in prediction_step
+[rank0]:     loss, generated_tokens, _ = super().prediction_step(
+[rank0]:                                 ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer_seq2seq.py", line 295, in prediction_step
+[rank0]:     return super().prediction_step(
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 4483, in prediction_step
+[rank0]:     loss, outputs = self.compute_loss(model, inputs, return_outputs=True)
+[rank0]:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 3731, in compute_loss
+[rank0]:     outputs = model(**inputs)
+[rank0]:               ^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+[rank0]:     return inner()
+[rank0]:            ^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in inner
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 819, in forward
+[rank0]:     outputs = self.model(
+[rank0]:               ^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+[rank0]:     return inner()
+[rank0]:            ^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in inner
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 577, in forward
+[rank0]:     layer_outputs = decoder_layer(
+[rank0]:                     ^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+[rank0]:     return inner()
+[rank0]:            ^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in inner
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 259, in forward
+[rank0]:     hidden_states, self_attn_weights = self.self_attn(
+[rank0]:                                        ^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+[rank0]:     return inner()
+[rank0]:            ^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in inner
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 163, in forward
+[rank0]:     value_states = self.v_proj(hidden_states).view(hidden_shape).transpose(1, 2)
+[rank0]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+[rank0]:     return inner()
+[rank0]:            ^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in inner
+[rank0]:     args_result = hook(self, args)
+[rank0]:                   ^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 275, in _pre_forward_module_hook
+[rank0]:     self.pre_sub_module_forward_function(module)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[rank0]:     return func(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 449, in pre_sub_module_forward_function
+[rank0]:     param_coordinator.fetch_sub_module(sub_module, forward=True)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 632, in _fn
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[rank0]:     return func(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/zero/partitioned_param_coordinator.py", line 323, in fetch_sub_module
+[rank0]:     self.__ongoing_fetch_events.popleft().synchronize()
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/cuda/streams.py", line 225, in synchronize
+[rank0]:     super().synchronize()
+[rank0]: KeyboardInterrupt

@@ -1,0 +1,74 @@
+  0%|                                                                                | 0/1355 [00:00<?, ?it/s]/root/miniconda3/envs/lf/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+  0%|                                                                      | 2/1355 [00:11<1:59:58,  5.32s/it]Traceback (most recent call last):
+  File "/apdcephfs_cq11/share_1567347/share_info/rhyang/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+    launch()
+  File "/apdcephfs_cq11/share_1567347/share_info/rhyang/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+    run_exp()
+  File "/apdcephfs_cq11/share_1567347/share_info/rhyang/LLaMA-Factory/src/llamafactory/train/tuner.py", line 50, in run_exp
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/apdcephfs_cq11/share_1567347/share_info/rhyang/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 96, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/transformers/trainer.py", line 3349, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/accelerate/accelerator.py", line 2238, in backward
+    self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/accelerate/utils/deepspeed.py", line 195, in backward
+    self.engine.step()
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2160, in step
+    self._take_model_step(lr_kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2066, in _take_model_step
+    self.optimizer.step()
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py", line 2029, in step
+    norm_groups = self._get_norm_groups()
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py", line 1843, in _get_norm_groups
+    norm_groups.append(self.get_grad_norm_direct(self.averaged_gradients[i], self.fp16_groups[i]))
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py", line 1769, in get_grad_norm_direct
+    err = torch.tensor(-1.0, device=self.device, dtype=torch.float)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/apdcephfs_cq11/share_1567347/share_info/rhyang/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+    launch()
+  File "/apdcephfs_cq11/share_1567347/share_info/rhyang/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+    run_exp()
+  File "/apdcephfs_cq11/share_1567347/share_info/rhyang/LLaMA-Factory/src/llamafactory/train/tuner.py", line 50, in run_exp
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/apdcephfs_cq11/share_1567347/share_info/rhyang/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 96, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/transformers/trainer.py", line 3349, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/accelerate/accelerator.py", line 2238, in backward
+    self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/accelerate/utils/deepspeed.py", line 195, in backward
+    self.engine.step()
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2160, in step
+    self._take_model_step(lr_kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2066, in _take_model_step
+    self.optimizer.step()
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py", line 2029, in step
+    norm_groups = self._get_norm_groups()
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py", line 1843, in _get_norm_groups
+    norm_groups.append(self.get_grad_norm_direct(self.averaged_gradients[i], self.fp16_groups[i]))
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/root/miniconda3/envs/lf/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py", line 1769, in get_grad_norm_direct
+    err = torch.tensor(-1.0, device=self.device, dtype=torch.float)
+KeyboardInterrupt

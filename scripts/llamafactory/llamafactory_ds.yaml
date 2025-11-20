@@ -1,0 +1,54 @@
+### model
+model_name_or_path: /apdcephfs_cq11/share_1567347/share_info/llm_models/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28
+# model_name_or_path: /apdcephfs_cq11/share_1567347/share_info/llm_models/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659
+### method
+# stage: dpo
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: deepspeed/ds_z3_config.json
+# pref_ftx: 0.1
+
+### dataset
+dataset: cog_sft_sciworld
+# dataset: cog_sft_alfworld_balance
+dataset_dir: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/data # data_info.json 的位置
+template: qwen
+cutoff_len: 8196
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+# output_dir: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_verl_v2_sci_lr2e6_bs32_epoch3_full_1020
+# output_dir: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/llama3.1-8b_cog-sft_verl_v2_alf_lr2e6_bs32_epoch3_full_1027
+output_dir: /apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_alf_lr2e6_bs16_epoch5_full_1103
+logging_steps: 15
+save_steps: 200
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 1
+learning_rate: 2.0e-6
+num_train_epochs: 5.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+save_total_limit: 10
+gradient_checkpointing: true
+report_to: wandb
+resume_from_checkpoint: false
+
+### eval
+val_size: 0.05
+per_device_eval_batch_size: 2
+eval_strategy: steps
+eval_steps: 50
+
+### lora
+# lora_rank: 8 
+# lora_alpha: 16 
+# lora_dropout: 0 
+# lora_target: all 

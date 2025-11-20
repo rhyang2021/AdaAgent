@@ -1,0 +1,7 @@
+{"time":"2025-11-02T00:24:11.117677201+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20251102_002410-ufcybnft/logs/debug-core.log"}
+{"time":"2025-11-02T00:24:11.342536334+08:00","level":"INFO","msg":"created new stream","id":"ufcybnft"}
+{"time":"2025-11-02T00:24:11.34273601+08:00","level":"INFO","msg":"stream: started","id":"ufcybnft"}
+{"time":"2025-11-02T00:24:11.342754359+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ufcybnft"}
+{"time":"2025-11-02T00:24:11.342766829+08:00","level":"INFO","msg":"handler: started","stream_id":"ufcybnft"}
+{"time":"2025-11-02T00:24:11.342814828+08:00","level":"INFO","msg":"sender: started","stream_id":"ufcybnft"}
+{"time":"2025-11-02T00:24:11.874068776+08:00","level":"INFO","msg":"Starting system monitor"}

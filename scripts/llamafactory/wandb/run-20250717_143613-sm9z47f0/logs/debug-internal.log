@@ -1,0 +1,18 @@
+{"time":"2025-07-17T14:36:14.419476067+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20250717_143613-sm9z47f0/logs/debug-core.log"}
+{"time":"2025-07-17T14:36:14.64262172+08:00","level":"INFO","msg":"created new stream","id":"sm9z47f0"}
+{"time":"2025-07-17T14:36:14.642840716+08:00","level":"INFO","msg":"stream: started","id":"sm9z47f0"}
+{"time":"2025-07-17T14:36:14.642868056+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"sm9z47f0"}
+{"time":"2025-07-17T14:36:14.642876866+08:00","level":"INFO","msg":"handler: started","stream_id":"sm9z47f0"}
+{"time":"2025-07-17T14:36:14.642902985+08:00","level":"INFO","msg":"sender: started","stream_id":"sm9z47f0"}
+{"time":"2025-07-17T14:36:15.136660026+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-17T15:25:59.372616813+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/nl_agent_learning/llamafactory/sm9z47f0/file_stream\": unexpected EOF"}
+{"time":"2025-07-17T15:30:00.868071823+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/nl_agent_learning/llamafactory/sm9z47f0/file_stream\": context deadline exceeded"}
+{"time":"2025-07-17T18:15:03.367356901+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/nl_agent_learning/llamafactory/sm9z47f0/file_stream\": unexpected EOF"}
+{"time":"2025-07-17T18:31:43.399944668+08:00","level":"INFO","msg":"stream: closing","id":"sm9z47f0"}
+{"time":"2025-07-17T18:31:43.399965868+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-17T18:31:43.40091792+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-17T18:31:45.344170617+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-17T18:31:45.779458872+08:00","level":"INFO","msg":"handler: closed","stream_id":"sm9z47f0"}
+{"time":"2025-07-17T18:31:45.779530041+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sm9z47f0"}
+{"time":"2025-07-17T18:31:45.77956092+08:00","level":"INFO","msg":"sender: closed","stream_id":"sm9z47f0"}
+{"time":"2025-07-17T18:31:45.780318326+08:00","level":"INFO","msg":"stream: closed","id":"sm9z47f0"}

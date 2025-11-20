@@ -1,0 +1,223 @@
+  0%|                                                                                | 0/2967 [00:00<?, ?it/s]/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py:3105: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint_rng_state = torch.load(rng_file)
+ 62%|█████████████████████████████████████████▊                         | 1850/2967 [13:25<4:58:02, 16.01s/it][INFO|trainer.py:4226] 2025-09-16 02:13:50,267 >>
+{'loss': 0.8331, 'grad_norm': 1.5855703747816998, 'learning_rate': 7.920883091822408e-07, 'epoch': 1.83}
+{'loss': 0.813, 'grad_norm': 1.6935570801082798, 'learning_rate': 7.805938232356503e-07, 'epoch': 1.84}
+{'loss': 0.824, 'grad_norm': 1.5671179977935028, 'learning_rate': 7.691297126230515e-07, 'epoch': 1.85}
+{'loss': 0.8331, 'grad_norm': 1.6442179291746546, 'learning_rate': 7.576975644747337e-07, 'epoch': 1.86}
+{'loss': 0.7899, 'grad_norm': 1.695364589236065, 'learning_rate': 7.462989614959941e-07, 'epoch': 1.87}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-09-16 02:13:50,267 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-16 02:13:50,267 >>   Batch size = 2
+ 64%|██████████████████████████████████████████▉                        | 1900/2967 [30:25<4:39:01, 15.69s/it][INFO|trainer.py:4226] 2025-09-16 02:30:50,530 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7969228029251099, 'eval_runtime': 232.22, 'eval_samples_per_second': 7.174, 'eval_steps_per_second': 0.452, 'epoch': 1.87}
+{'loss': 0.8102, 'grad_norm': 1.880355844019359, 'learning_rate': 7.349354817480234e-07, 'epoch': 1.88}
+{'loss': 0.8091, 'grad_norm': 1.640088197678381, 'learning_rate': 7.236086984294332e-07, 'epoch': 1.89}
+{'loss': 0.8149, 'grad_norm': 1.7146801886241574, 'learning_rate': 7.123201796584569e-07, 'epoch': 1.9}
+{'loss': 0.8124, 'grad_norm': 1.5107926214476015, 'learning_rate': 7.01071488255855e-07, 'epoch': 1.91}
+{'loss': 0.8147, 'grad_norm': 1.7440569082552138, 'learning_rate': 6.898641815285515e-07, 'epoch': 1.92}
+[INFO|trainer.py:4228] 2025-09-16 02:30:50,530 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-16 02:30:50,530 >>   Batch size = 2
+ 66%|████████████████████████████████████████████                       | 1950/2967 [47:37<4:26:00, 15.69s/it][INFO|trainer.py:4226] 2025-09-16 02:48:01,906 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7962163090705872, 'eval_runtime': 236.6594, 'eval_samples_per_second': 7.04, 'eval_steps_per_second': 0.444, 'epoch': 1.92}
+{'loss': 0.8283, 'grad_norm': 1.5859924681365114, 'learning_rate': 6.786998110540363e-07, 'epoch': 1.93}
+{'loss': 0.8307, 'grad_norm': 1.491969683574988, 'learning_rate': 6.675799224655587e-07, 'epoch': 1.94}
+{'loss': 0.8279, 'grad_norm': 1.8474349920289914, 'learning_rate': 6.565060552381456e-07, 'epoch': 1.95}
+{'loss': 0.8058, 'grad_norm': 1.6400445691542733, 'learning_rate': 6.45479742475471e-07, 'epoch': 1.96}
+{'loss': 0.8374, 'grad_norm': 1.8775336384561527, 'learning_rate': 6.345025106976069e-07, 'epoch': 1.97}
+[INFO|trainer.py:4228] 2025-09-16 02:48:01,907 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-16 02:48:01,907 >>   Batch size = 2
+ 67%|███████████████████████████████████████████▊                     | 2000/2967 [1:04:53<4:09:20, 15.47s/it][INFO|trainer.py:4226] 2025-09-16 03:05:18,309 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7945582866668701, 'eval_runtime': 239.5089, 'eval_samples_per_second': 6.956, 'eval_steps_per_second': 0.438, 'epoch': 1.97}
+{'loss': 0.7888, 'grad_norm': 1.540896949363333, 'learning_rate': 6.235758796296881e-07, 'epoch': 1.98}
+{'loss': 0.8382, 'grad_norm': 1.7774508598942504, 'learning_rate': 6.127013619915164e-07, 'epoch': 1.99}
+{'loss': 0.7918, 'grad_norm': 1.7635848992288812, 'learning_rate': 6.018804632881324e-07, 'epoch': 2.0}
+{'loss': 0.815, 'grad_norm': 1.7300465441952395, 'learning_rate': 5.911146816013913e-07, 'epoch': 2.01}
+{'loss': 0.7848, 'grad_norm': 1.6283555272001495, 'learning_rate': 5.804055073825613e-07, 'epoch': 2.02}
+[INFO|trainer.py:4228] 2025-09-16 03:05:18,309 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-16 03:05:18,309 >>   Batch size = 2
+ 67%|███████████████████████████████████████████▊                     | 2000/2967 [1:08:50<4:09:20, 15.47s/it][INFO|trainer.py:3910] 2025-09-16 03:09:23,064 >> Saving model checkpoint to /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000
+[INFO|configuration_utils.py:420] 2025-09-16 03:09:23,089 >> Configuration saved in /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000/config.json
+{'eval_loss': 0.7981007695198059, 'eval_runtime': 237.5733, 'eval_samples_per_second': 7.013, 'eval_steps_per_second': 0.442, 'epoch': 2.02}
+[INFO|configuration_utils.py:909] 2025-09-16 03:09:23,097 >> Configuration saved in /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000/generation_config.json
+[INFO|modeling_utils.py:2996] 2025-09-16 03:09:38,027 >> The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2491] 2025-09-16 03:09:38,036 >> tokenizer config file saved in /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2500] 2025-09-16 03:09:38,044 >> Special tokens file saved in /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000/special_tokens_map.json
+[2025-09-16 03:09:38,641] [INFO] [logging.py:128:log_dist] [Rank 0] [Torch] Checkpoint global_step2000 is about to be saved!
+[2025-09-16 03:09:38,669] [INFO] [logging.py:128:log_dist] [Rank 0] Saving model checkpoint: /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000/global_step2000/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2025-09-16 03:09:38,669] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000/global_step2000/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2025-09-16 03:09:38,745] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000/global_step2000/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2025-09-16 03:09:38,793] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000/global_step2000/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2025-09-16 03:10:17,350] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000/global_step2000/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2025-09-16 03:10:17,359] [INFO] [engine.py:3536:_save_zero_checkpoint] zero checkpoint saved /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2000/global_step2000/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2025-09-16 03:10:17,938] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step2000 is ready now!
+[INFO|trainer.py:4002] 2025-09-16 03:10:18,032 >> Deleting older checkpoint [/apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-1400] due to args.save_total_limit
+ 69%|████████████████████████████████████████████▉                    | 2050/2967 [1:23:35<4:05:54, 16.09s/it][INFO|trainer.py:4226] 2025-09-16 03:24:00,239 >>
+{'loss': 0.777, 'grad_norm': 1.7964324836224046, 'learning_rate': 5.697544232459815e-07, 'epoch': 2.03}
+{'loss': 0.7923, 'grad_norm': 1.4845224714579366, 'learning_rate': 5.591629037638017e-07, 'epoch': 2.04}
+{'loss': 0.7834, 'grad_norm': 1.5772307538360943, 'learning_rate': 5.486324152618418e-07, 'epoch': 2.05}
+{'loss': 0.794, 'grad_norm': 1.5615018097458582, 'learning_rate': 5.381644156165844e-07, 'epoch': 2.06}
+{'loss': 0.7599, 'grad_norm': 1.543626814942709, 'learning_rate': 5.277603540533429e-07, 'epoch': 2.07}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-09-16 03:24:00,239 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-16 03:24:00,239 >>   Batch size = 2
+ 71%|██████████████████████████████████████████████                   | 2100/2967 [1:40:54<3:52:10, 16.07s/it][INFO|trainer.py:4226] 2025-09-16 03:41:19,684 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7983245849609375, 'eval_runtime': 237.1338, 'eval_samples_per_second': 7.026, 'eval_steps_per_second': 0.443, 'epoch': 2.07}
+{'loss': 0.7772, 'grad_norm': 1.4346981963156298, 'learning_rate': 5.174216709456283e-07, 'epoch': 2.08}
+{'loss': 0.7748, 'grad_norm': 1.6828150070114327, 'learning_rate': 5.071497976157345e-07, 'epoch': 2.09}
+{'loss': 0.7986, 'grad_norm': 1.5421464905066349, 'learning_rate': 4.969461561365845e-07, 'epoch': 2.1}
+{'loss': 0.796, 'grad_norm': 1.5217014312937824, 'learning_rate': 4.868121591348535e-07, 'epoch': 2.11}
+{'loss': 0.7684, 'grad_norm': 1.5392917498975556, 'learning_rate': 4.7674920959539843e-07, 'epoch': 2.12}
+[INFO|trainer.py:4228] 2025-09-16 03:41:19,684 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-16 03:41:19,684 >>   Batch size = 2
+ 72%|███████████████████████████████████████████████                  | 2150/2967 [1:58:12<3:44:29, 16.49s/it][INFO|trainer.py:4226] 2025-09-16 03:58:36,999 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7985047101974487, 'eval_runtime': 237.527, 'eval_samples_per_second': 7.014, 'eval_steps_per_second': 0.442, 'epoch': 2.12}
+{'loss': 0.7832, 'grad_norm': 1.5066876526660744, 'learning_rate': 4.667587006670249e-07, 'epoch': 2.13}
+{'loss': 0.7749, 'grad_norm': 1.5987313368310057, 'learning_rate': 4.568420154696164e-07, 'epoch': 2.14}
+{'loss': 0.7999, 'grad_norm': 1.4989134598485767, 'learning_rate': 4.470005269026482e-07, 'epoch': 2.15}
+{'loss': 0.7961, 'grad_norm': 1.5423182452991822, 'learning_rate': 4.372355974551183e-07, 'epoch': 2.16}
+{'loss': 0.7998, 'grad_norm': 1.5610326894301894, 'learning_rate': 4.275485790169234e-07, 'epoch': 2.17}
+[INFO|trainer.py:4228] 2025-09-16 03:58:37,000 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-16 03:58:37,000 >>   Batch size = 2
+ 74%|████████████████████████████████████████████████▏                | 2200/2967 [2:15:24<3:23:05, 15.89s/it][INFO|trainer.py:4226] 2025-09-16 04:15:49,031 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7986449003219604, 'eval_runtime': 238.4549, 'eval_samples_per_second': 6.987, 'eval_steps_per_second': 0.44, 'epoch': 2.17}
+{'loss': 0.7534, 'grad_norm': 1.6644590995723778, 'learning_rate': 4.1794081269169455e-07, 'epoch': 2.18}
+{'loss': 0.765, 'grad_norm': 1.6904193795098732, 'learning_rate': 4.084136286111323e-07, 'epoch': 2.19}
+{'loss': 0.755, 'grad_norm': 1.5868995978577327, 'learning_rate': 3.9896834575085904e-07, 'epoch': 2.2}
+{'loss': 0.8014, 'grad_norm': 1.4906417954677378, 'learning_rate': 3.8960627174781424e-07, 'epoch': 2.21}
+{'loss': 0.7658, 'grad_norm': 1.5369956658688053, 'learning_rate': 3.8032870271922126e-07, 'epoch': 2.22}
+[INFO|trainer.py:4228] 2025-09-16 04:15:49,031 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-16 04:15:49,031 >>   Batch size = 2
+ 74%|████████████████████████████████████████████████▏                | 2200/2967 [2:19:18<3:23:05, 15.89s/it][INFO|trainer.py:3910] 2025-09-16 04:19:52,347 >> Saving model checkpoint to /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200
+[INFO|configuration_utils.py:420] 2025-09-16 04:19:52,364 >> Configuration saved in /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200/config.json
+{'eval_loss': 0.7974852323532104, 'eval_runtime': 234.8488, 'eval_samples_per_second': 7.094, 'eval_steps_per_second': 0.447, 'epoch': 2.22}
+[INFO|configuration_utils.py:909] 2025-09-16 04:19:52,372 >> Configuration saved in /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200/generation_config.json
+[INFO|modeling_utils.py:2996] 2025-09-16 04:20:07,375 >> The model is bigger than the maximum size per checkpoint (5GB) and is going to be split in 4 checkpoint shards. You can find where each parameters has been saved in the index located at /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2491] 2025-09-16 04:20:07,384 >> tokenizer config file saved in /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2500] 2025-09-16 04:20:07,391 >> Special tokens file saved in /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200/special_tokens_map.json
+[2025-09-16 04:20:07,570] [INFO] [logging.py:128:log_dist] [Rank 0] [Torch] Checkpoint global_step2200 is about to be saved!
+[2025-09-16 04:20:07,595] [INFO] [logging.py:128:log_dist] [Rank 0] Saving model checkpoint: /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200/global_step2200/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2025-09-16 04:20:07,595] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200/global_step2200/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2025-09-16 04:20:08,251] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200/global_step2200/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2025-09-16 04:20:08,301] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200/global_step2200/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2025-09-16 04:20:46,302] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200/global_step2200/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2025-09-16 04:20:46,311] [INFO] [engine.py:3536:_save_zero_checkpoint] zero checkpoint saved /apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-2200/global_step2200/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2025-09-16 04:20:46,444] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step2200 is ready now!
+[INFO|trainer.py:4002] 2025-09-16 04:20:46,544 >> Deleting older checkpoint [/apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/models/qwen2.5-7b_cog-sft_balance_single_alf_lr2e6_bs32_epoch3_full_0915/checkpoint-1600] due to args.save_total_limit
+ 76%|█████████████████████████████████████████████████▎               | 2250/2967 [2:33:43<3:17:18, 16.51s/it][INFO|trainer.py:4226] 2025-09-16 04:34:07,940 >>
+{'loss': 0.7816, 'grad_norm': 1.6568397365605578, 'learning_rate': 3.711369230831496e-07, 'epoch': 2.23}
+{'loss': 0.7676, 'grad_norm': 1.6201616900434426, 'learning_rate': 3.620322053806941e-07, 'epoch': 2.24}
+{'loss': 0.7688, 'grad_norm': 1.4716008974752612, 'learning_rate': 3.530158100998003e-07, 'epoch': 2.25}
+{'loss': 0.759, 'grad_norm': 1.5756052979613184, 'learning_rate': 3.4408898550076014e-07, 'epoch': 2.26}
+{'loss': 0.7944, 'grad_norm': 1.6521002427361804, 'learning_rate': 3.352529674433957e-07, 'epoch': 2.28}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-09-16 04:34:07,940 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-16 04:34:07,940 >>   Batch size = 2
+ 78%|██████████████████████████████████████████████████▍              | 2300/2967 [2:50:54<2:53:41, 15.62s/it][INFO|trainer.py:4226] 2025-09-16 04:51:19,322 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.7976720333099365, 'eval_runtime': 237.2127, 'eval_samples_per_second': 7.023, 'eval_steps_per_second': 0.443, 'epoch': 2.28}
+{'loss': 0.7724, 'grad_norm': 1.5562669122205122, 'learning_rate': 3.265089792159644e-07, 'epoch': 2.29}
+{'loss': 0.779, 'grad_norm': 1.6583723668053143, 'learning_rate': 3.1785823136580246e-07, 'epoch': 2.3}
+{'loss': 0.761, 'grad_norm': 1.6932391889627798, 'learning_rate': 3.0930192153173227e-07, 'epoch': 2.31}
+{'loss': 0.7924, 'grad_norm': 1.4881269121920269, 'learning_rate': 3.008412342782585e-07, 'epoch': 2.32}
+{'loss': 0.7487, 'grad_norm': 1.5529559517652556, 'learning_rate': 2.924773409315707e-07, 'epoch': 2.33}
+[INFO|trainer.py:4228] 2025-09-16 04:51:19,323 >>   Num examples = 1666
+[INFO|trainer.py:4231] 2025-09-16 04:51:19,323 >>   Batch size = 2
+ 79%|███████████████████████████████████████████████████              | 2330/2967 [3:03:04<2:57:26, 16.71s/it]Traceback (most recent call last):
+  File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>                                
+{'eval_loss': 0.7984319925308228, 'eval_runtime': 241.1191, 'eval_samples_per_second': 6.909, 'eval_steps_per_second': 0.435, 'epoch': 2.33}
+{'loss': 0.787, 'grad_norm': 1.593364448387427, 'learning_rate': 2.842113994173829e-07, 'epoch': 2.34}
+{'loss': 0.7722, 'grad_norm': 1.5792203821790787, 'learning_rate': 2.760445541006261e-07, 'epoch': 2.35}
+{'loss': 0.7517, 'grad_norm': 1.7475294251734663, 'learning_rate': 2.6797793562701754e-07, 'epoch': 2.36}
+    launch()
+  File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+    run_exp()
+  File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 92, in run_exp
+    _training_function(config={"args": args, "callbacks": callbacks})
+  File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 66, in _training_function
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 101, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2171, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2531, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 3712, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/data/miniforge/lib/python3.12/site-packages/accelerate/accelerator.py", line 2240, in backward
+    self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+  File "/data/miniforge/lib/python3.12/site-packages/accelerate/utils/deepspeed.py", line 246, in backward
+    self.engine.backward(loss, **kwargs)
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 2020, in backward
+    self.optimizer.backward(loss, retain_graph=retain_graph)
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 2259, in backward
+    self.loss_scaler.backward(loss.float(), retain_graph=retain_graph)
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/fp16/loss_scaler.py", line 63, in backward
+    scaled_loss.backward(retain_graph=retain_graph)
+  File "/data/miniforge/lib/python3.12/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/data/miniforge/lib/python3.12/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/data/miniforge/lib/python3.12/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+[rank0]:     launch()
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+[rank0]:     run_exp()
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 92, in run_exp
+[rank0]:     _training_function(config={"args": args, "callbacks": callbacks})
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 66, in _training_function
+[rank0]:     run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 101, in run_sft
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+[rank0]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2171, in train
+[rank0]:     return inner_training_loop(
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2531, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 3712, in training_step
+[rank0]:     self.accelerator.backward(loss, **kwargs)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/accelerate/accelerator.py", line 2240, in backward
+[rank0]:     self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/accelerate/utils/deepspeed.py", line 246, in backward
+[rank0]:     self.engine.backward(loss, **kwargs)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 2020, in backward
+[rank0]:     self.optimizer.backward(loss, retain_graph=retain_graph)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 2259, in backward
+[rank0]:     self.loss_scaler.backward(loss.float(), retain_graph=retain_graph)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/fp16/loss_scaler.py", line 63, in backward
+[rank0]:     scaled_loss.backward(retain_graph=retain_graph)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/_tensor.py", line 581, in backward
+[rank0]:     torch.autograd.backward(
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/autograd/__init__.py", line 347, in backward
+[rank0]:     _engine_run_backward(
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+[rank0]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: KeyboardInterrupt

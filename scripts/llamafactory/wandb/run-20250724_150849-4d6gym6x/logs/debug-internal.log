@@ -1,0 +1,15 @@
+{"time":"2025-07-24T15:08:49.971461726+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20250724_150849-4d6gym6x/logs/debug-core.log"}
+{"time":"2025-07-24T15:08:50.195341251+08:00","level":"INFO","msg":"created new stream","id":"4d6gym6x"}
+{"time":"2025-07-24T15:08:50.195477028+08:00","level":"INFO","msg":"stream: started","id":"4d6gym6x"}
+{"time":"2025-07-24T15:08:50.195504488+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"4d6gym6x"}
+{"time":"2025-07-24T15:08:50.195576146+08:00","level":"INFO","msg":"handler: started","stream_id":"4d6gym6x"}
+{"time":"2025-07-24T15:08:50.195553187+08:00","level":"INFO","msg":"sender: started","stream_id":"4d6gym6x"}
+{"time":"2025-07-24T15:08:50.756818834+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-24T21:48:55.832808154+08:00","level":"INFO","msg":"stream: closing","id":"4d6gym6x"}
+{"time":"2025-07-24T21:48:55.832937402+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-24T21:48:55.834018791+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-24T21:48:57.077225123+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-24T21:48:57.549254641+08:00","level":"INFO","msg":"handler: closed","stream_id":"4d6gym6x"}
+{"time":"2025-07-24T21:48:57.549274001+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4d6gym6x"}
+{"time":"2025-07-24T21:48:57.54933066+08:00","level":"INFO","msg":"sender: closed","stream_id":"4d6gym6x"}
+{"time":"2025-07-24T21:48:57.550114595+08:00","level":"INFO","msg":"stream: closed","id":"4d6gym6x"}

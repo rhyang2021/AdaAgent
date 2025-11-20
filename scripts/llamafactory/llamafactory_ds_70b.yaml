@@ -1,0 +1,41 @@
+### model
+model_name_or_path: /apdcephfs_cq10_1567347/share_1567347/share_info/llm_models/Qwen2.5-72B-Instruct
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: deepspeed/ds_z3_config.json
+
+### dataset
+dataset: qa_classifier
+dataset_dir: /apdcephfs_cq10_1567347/share_1567347/share_info/fanghuaye/data
+template: qwen
+cutoff_len: 4096
+overwrite_cache: true
+preprocessing_num_workers: 32
+
+### output
+output_dir: /apdcephfs_cq10_1567347/share_1567347/share_info/fanghuaye/neo-qa-agent/ckpt70b_ep1_bs32_lr2e6/
+logging_steps: 10
+save_steps: 50
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 1
+learning_rate: 2.0e-6
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+save_total_limit: 3
+
+### eval
+# val_size: 0.05
+# per_device_eval_batch_size: 2
+# eval_strategy: steps
+# eval_steps: 100
+

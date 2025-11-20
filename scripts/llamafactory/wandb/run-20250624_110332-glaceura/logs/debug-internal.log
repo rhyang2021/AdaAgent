@@ -1,0 +1,15 @@
+{"time":"2025-06-24T11:03:32.710424888+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20250624_110332-glaceura/logs/debug-core.log"}
+{"time":"2025-06-24T11:03:32.932488717+08:00","level":"INFO","msg":"created new stream","id":"glaceura"}
+{"time":"2025-06-24T11:03:32.932635005+08:00","level":"INFO","msg":"stream: started","id":"glaceura"}
+{"time":"2025-06-24T11:03:32.932709929+08:00","level":"INFO","msg":"sender: started","stream_id":"glaceura"}
+{"time":"2025-06-24T11:03:32.932657363+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"glaceura"}
+{"time":"2025-06-24T11:03:32.932675682+08:00","level":"INFO","msg":"handler: started","stream_id":"glaceura"}
+{"time":"2025-06-24T11:03:33.533216571+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-24T15:44:23.863336557+08:00","level":"INFO","msg":"stream: closing","id":"glaceura"}
+{"time":"2025-06-24T15:44:23.863369674+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-24T15:44:23.864284111+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-24T15:44:24.832483469+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-24T15:44:25.23085494+08:00","level":"INFO","msg":"handler: closed","stream_id":"glaceura"}
+{"time":"2025-06-24T15:44:25.230875879+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"glaceura"}
+{"time":"2025-06-24T15:44:25.230933094+08:00","level":"INFO","msg":"sender: closed","stream_id":"glaceura"}
+{"time":"2025-06-24T15:44:25.231719691+08:00","level":"INFO","msg":"stream: closed","id":"glaceura"}

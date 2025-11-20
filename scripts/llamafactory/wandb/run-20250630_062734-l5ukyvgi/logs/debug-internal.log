@@ -1,0 +1,7 @@
+{"time":"2025-06-30T06:27:34.727922702+08:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20250630_062734-l5ukyvgi/logs/debug-core.log"}
+{"time":"2025-06-30T06:27:41.768299136+08:00","level":"INFO","msg":"stream: created new stream","id":"l5ukyvgi"}
+{"time":"2025-06-30T06:27:41.768574703+08:00","level":"INFO","msg":"stream: started","id":"l5ukyvgi"}
+{"time":"2025-06-30T06:27:41.768608486+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"l5ukyvgi"}
+{"time":"2025-06-30T06:27:41.76862675+08:00","level":"INFO","msg":"handler: started","stream_id":"l5ukyvgi"}
+{"time":"2025-06-30T06:27:41.768668849+08:00","level":"INFO","msg":"sender: started","stream_id":"l5ukyvgi"}
+{"time":"2025-06-30T06:27:43.266823468+08:00","level":"INFO","msg":"Starting system monitor"}

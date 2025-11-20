@@ -1,0 +1,110 @@
+  7%|████▋                                                                 | 50/745 [09:59<1:55:28,  9.97s/it][INFO|trainer.py:4226] 2025-10-26 22:40:04,222 >>
+{'loss': 1.1716, 'grad_norm': 3.6635430106467717, 'learning_rate': 2.6666666666666667e-07, 'epoch': 0.07}
+{'loss': 1.1366, 'grad_norm': 2.234903163833435, 'learning_rate': 5.333333333333333e-07, 'epoch': 0.13}
+{'loss': 1.029, 'grad_norm': 1.6373590112144356, 'learning_rate': 8e-07, 'epoch': 0.2}
+{'loss': 0.9735, 'grad_norm': 1.067026565201531, 'learning_rate': 1.0666666666666667e-06, 'epoch': 0.27}
+{'loss': 0.903, 'grad_norm': 0.7956795668038178, 'learning_rate': 1.3333333333333332e-06, 'epoch': 0.34}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-10-26 22:40:04,223 >>   Num examples = 126
+[INFO|trainer.py:4231] 2025-10-26 22:40:04,223 >>   Batch size = 2
+ 13%|█████████▎                                                           | 100/745 [20:50<2:08:26, 11.95s/it][INFO|trainer.py:4226] 2025-10-26 22:50:55,121 >>
+***** Running Evaluation *****                                                                                
+{'eval_loss': 0.9124188423156738, 'eval_runtime': 27.751, 'eval_samples_per_second': 4.54, 'eval_steps_per_second': 0.288, 'epoch': 0.34}
+[2025-10-26 22:40:44,963] [WARNING] [stage3.py:2114:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+{'loss': 0.8935, 'grad_norm': 0.773670526597479, 'learning_rate': 1.6e-06, 'epoch': 0.4}
+{'loss': 0.8638, 'grad_norm': 0.7612411234117185, 'learning_rate': 1.8666666666666667e-06, 'epoch': 0.47}
+{'loss': 0.8528, 'grad_norm': 0.735516587176153, 'learning_rate': 1.999725185109816e-06, 'epoch': 0.54}
+{'loss': 0.8576, 'grad_norm': 0.655653219712213, 'learning_rate': 1.9975275721840103e-06, 'epoch': 0.6}
+{'loss': 0.8644, 'grad_norm': 0.6363510860937251, 'learning_rate': 1.993137177162554e-06, 'epoch': 0.67}
+[INFO|trainer.py:4228] 2025-10-26 22:50:55,121 >>   Num examples = 126
+[INFO|trainer.py:4231] 2025-10-26 22:50:55,121 >>   Batch size = 2
+ 16%|██████████▋                                                          | 116/745 [24:32<2:11:08, 12.51s/it]Traceback (most recent call last):
+  File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>                                
+{'eval_loss': 0.8408877849578857, 'eval_runtime': 27.5831, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.29, 'epoch': 0.67}
+{'loss': 0.8395, 'grad_norm': 0.715954069042239, 'learning_rate': 1.9865636510865466e-06, 'epoch': 0.74}
+    launch()
+  File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+    run_exp()
+  File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 92, in run_exp
+    _training_function(config={"args": args, "callbacks": callbacks})
+  File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 66, in _training_function
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 101, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2171, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2531, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 3712, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/data/miniforge/lib/python3.12/site-packages/accelerate/accelerator.py", line 2240, in backward
+    self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+  File "/data/miniforge/lib/python3.12/site-packages/accelerate/utils/deepspeed.py", line 246, in backward
+    self.engine.backward(loss, **kwargs)
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 2020, in backward
+    self.optimizer.backward(loss, retain_graph=retain_graph)
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 2259, in backward
+    self.loss_scaler.backward(loss.float(), retain_graph=retain_graph)
+  File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/fp16/loss_scaler.py", line 63, in backward
+    scaled_loss.backward(retain_graph=retain_graph)
+  File "/data/miniforge/lib/python3.12/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/data/miniforge/lib/python3.12/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/data/miniforge/lib/python3.12/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+[rank0]:     launch()
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+[rank0]:     run_exp()
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 92, in run_exp
+[rank0]:     _training_function(config={"args": args, "callbacks": callbacks})
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 66, in _training_function
+[rank0]:     run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+[rank0]:   File "/tmp/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 101, in run_sft
+[rank0]:     train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+[rank0]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2171, in train
+[rank0]:     return inner_training_loop(
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 2531, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/transformers/trainer.py", line 3712, in training_step
+[rank0]:     self.accelerator.backward(loss, **kwargs)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/accelerate/accelerator.py", line 2240, in backward
+[rank0]:     self.deepspeed_engine_wrapped.backward(loss, **kwargs)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/accelerate/utils/deepspeed.py", line 246, in backward
+[rank0]:     self.engine.backward(loss, **kwargs)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 2020, in backward
+[rank0]:     self.optimizer.backward(loss, retain_graph=retain_graph)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 2259, in backward
+[rank0]:     self.loss_scaler.backward(loss.float(), retain_graph=retain_graph)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/deepspeed/runtime/fp16/loss_scaler.py", line 63, in backward
+[rank0]:     scaled_loss.backward(retain_graph=retain_graph)
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/_tensor.py", line 581, in backward
+[rank0]:     torch.autograd.backward(
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/autograd/__init__.py", line 347, in backward
+[rank0]:     _engine_run_backward(
+[rank0]:   File "/data/miniforge/lib/python3.12/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+[rank0]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: KeyboardInterrupt

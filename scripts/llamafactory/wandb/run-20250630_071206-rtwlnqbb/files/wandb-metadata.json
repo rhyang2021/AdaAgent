@@ -1,0 +1,78 @@
+{
+  "os": "Linux-5.4.241-1-tlinux4-0017.4-x86_64-with-glibc2.17",
+  "python": "CPython 3.10.18",
+  "startedAt": "2025-06-29T23:12:06.359849Z",
+  "args": [
+    "llamafactory_ds.yaml"
+  ],
+  "program": "/apdcephfs_cq11/share_1567347/share_info/rhyang/LLaMA-Factory/src/llamafactory/launcher.py",
+  "codePath": "LLaMA-Factory/src/llamafactory/launcher.py",
+  "git": {
+    "remote": "https://github.com/eilamshapira/GLEE.git",
+    "commit": "2368ff679cc9b5789c1daa9d64c545cdcd3ac62a"
+  },
+  "email": "1402955047@qq.com",
+  "root": "/apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory",
+  "host": "ts-8b1d81fc979c40070197b59e59472c06-launcher",
+  "executable": "/root/miniconda3/envs/lf/bin/python3.10",
+  "cpu_count": 96,
+  "cpu_count_logical": 192,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "gpu_count": 8,
+  "disk": {
+    "/": {
+      "total": "214748364800",
+      "used": "11844571136"
+    }
+  },
+  "memory": {
+    "total": "1081220833280"
+  },
+  "cpu": {
+    "count": 96,
+    "countLogical": 192
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "architecture": "Ampere",
+      "uuid": "GPU-13dc3951-0bab-0e8e-b978-ecc1a10910d8"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "architecture": "Ampere",
+      "uuid": "GPU-3a19fcbb-4939-c377-b2ed-c9fdb28d4a76"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "architecture": "Ampere",
+      "uuid": "GPU-4f43c602-d3ea-80a0-5090-5913fb4142cb"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "architecture": "Ampere",
+      "uuid": "GPU-3acbfd2a-bf4e-e8ed-d161-01437d3f0ff2"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "architecture": "Ampere",
+      "uuid": "GPU-ed54ac19-03a4-ddb6-ed07-ce85aac2a0e1"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "architecture": "Ampere",
+      "uuid": "GPU-269952e3-3428-8ca5-244f-eb8e7a3ecef7"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "architecture": "Ampere",
+      "uuid": "GPU-9c147bcc-b990-586d-8ef6-51dd0b91ea25"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "architecture": "Ampere",
+      "uuid": "GPU-7b8a4810-95c6-7746-583c-1cb26d55d258"
+    }
+  ],
+  "cudaVersion": "11.4"
+}

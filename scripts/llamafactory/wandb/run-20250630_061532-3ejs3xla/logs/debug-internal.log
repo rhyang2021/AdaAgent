@@ -1,0 +1,7 @@
+{"time":"2025-06-30T06:15:33.18743527+08:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20250630_061532-3ejs3xla/logs/debug-core.log"}
+{"time":"2025-06-30T06:15:46.110171603+08:00","level":"INFO","msg":"stream: created new stream","id":"3ejs3xla"}
+{"time":"2025-06-30T06:15:46.110454143+08:00","level":"INFO","msg":"stream: started","id":"3ejs3xla"}
+{"time":"2025-06-30T06:15:46.110482566+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"3ejs3xla"}
+{"time":"2025-06-30T06:15:46.110492004+08:00","level":"INFO","msg":"handler: started","stream_id":"3ejs3xla"}
+{"time":"2025-06-30T06:15:46.110509216+08:00","level":"INFO","msg":"sender: started","stream_id":"3ejs3xla"}
+{"time":"2025-06-30T06:15:59.404563579+08:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,18 @@
+{"time":"2025-10-22T11:49:04.105147363+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/apdcephfs_cq11/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20251022_114903-lojxen9m/logs/debug-core.log"}
+{"time":"2025-10-22T11:49:04.3285283+08:00","level":"INFO","msg":"created new stream","id":"lojxen9m"}
+{"time":"2025-10-22T11:49:04.328729656+08:00","level":"INFO","msg":"stream: started","id":"lojxen9m"}
+{"time":"2025-10-22T11:49:04.328770855+08:00","level":"INFO","msg":"handler: started","stream_id":"lojxen9m"}
+{"time":"2025-10-22T11:49:04.328761075+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"lojxen9m"}
+{"time":"2025-10-22T11:49:04.328944561+08:00","level":"INFO","msg":"sender: started","stream_id":"lojxen9m"}
+{"time":"2025-10-22T11:49:04.95875968+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-22T15:22:05.705722295+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/nl_agent_learning/llamafactory/lojxen9m/file_stream\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-10-22T15:23:55.279232551+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/nl_agent_learning/llamafactory/lojxen9m/file_stream\": unexpected EOF"}
+{"time":"2025-10-23T00:35:15.308680306+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/nl_agent_learning/llamafactory/lojxen9m/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-10-23T01:20:18.23051855+08:00","level":"INFO","msg":"stream: closing","id":"lojxen9m"}
+{"time":"2025-10-23T01:20:18.230569359+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-23T01:20:18.231614728+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-23T01:20:19.622925+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-23T01:20:20.074343191+08:00","level":"INFO","msg":"handler: closed","stream_id":"lojxen9m"}
+{"time":"2025-10-23T01:20:20.074366931+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lojxen9m"}
+{"time":"2025-10-23T01:20:20.074376311+08:00","level":"INFO","msg":"sender: closed","stream_id":"lojxen9m"}
+{"time":"2025-10-23T01:20:20.075034867+08:00","level":"INFO","msg":"stream: closed","id":"lojxen9m"}

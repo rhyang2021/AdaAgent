@@ -1,0 +1,16 @@
+  6%|███▊                                                                  | 50/905 [13:50<4:30:51, 19.01s/it][INFO|trainer.py:4226] 2025-06-24 21:07:57,843 >>
+{'loss': 0.8988, 'grad_norm': 6.811550226043639, 'learning_rate': 2.1978021978021976e-07, 'epoch': 0.06}
+[2025-06-24 20:58:10,514] [WARNING] [stage3.py:2114:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+{'loss': 0.8709, 'grad_norm': 4.427699595508178, 'learning_rate': 4.395604395604395e-07, 'epoch': 0.11}
+{'loss': 0.7784, 'grad_norm': 1.763647139612635, 'learning_rate': 6.593406593406593e-07, 'epoch': 0.17}
+{'loss': 0.7493, 'grad_norm': 1.4794205202382646, 'learning_rate': 8.79120879120879e-07, 'epoch': 0.22}
+{'loss': 0.7436, 'grad_norm': 1.3673731427044002, 'learning_rate': 1.098901098901099e-06, 'epoch': 0.28}
+***** Running Evaluation *****
+[INFO|trainer.py:4228] 2025-06-24 21:07:57,843 >>   Num examples = 161
+[INFO|trainer.py:4231] 2025-06-24 21:07:57,843 >>   Batch size = 2
+  8%|█████▌                                                                | 72/905 [21:59<3:24:41, 14.74s/it]
+                                                                                                              
+{'eval_loss': 0.7134473919868469, 'eval_runtime': 116.1505, 'eval_samples_per_second': 1.386, 'eval_steps_per_second': 0.181, 'epoch': 0.28}
+[2025-06-24 21:10:07,920] [WARNING] [stage3.py:2114:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+{'loss': 0.7257, 'grad_norm': 1.2082991286632387, 'learning_rate': 1.3186813186813185e-06, 'epoch': 0.33}
+{'loss': 0.6985, 'grad_norm': 1.088878632845484, 'learning_rate': 1.5384615384615385e-06, 'epoch': 0.39}

@@ -1,0 +1,7 @@
+{"time":"2025-09-15T22:45:45.53535978+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20250915_224545-pn31q51n/logs/debug-core.log"}
+{"time":"2025-09-15T22:45:45.75776239+08:00","level":"INFO","msg":"created new stream","id":"pn31q51n"}
+{"time":"2025-09-15T22:45:45.758041494+08:00","level":"INFO","msg":"handler: started","stream_id":"pn31q51n"}
+{"time":"2025-09-15T22:45:45.758061984+08:00","level":"INFO","msg":"stream: started","id":"pn31q51n"}
+{"time":"2025-09-15T22:45:45.758064444+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"pn31q51n"}
+{"time":"2025-09-15T22:45:45.758111962+08:00","level":"INFO","msg":"sender: started","stream_id":"pn31q51n"}
+{"time":"2025-09-15T22:45:46.436235141+08:00","level":"INFO","msg":"Starting system monitor"}

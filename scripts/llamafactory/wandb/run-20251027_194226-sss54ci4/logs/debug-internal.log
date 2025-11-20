@@ -1,0 +1,16 @@
+{"time":"2025-10-27T19:42:27.041181243+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/apdcephfs_cq11_1567347/share_1567347/share_info/rhyang/AdaAgent/scripts/llamafactory/wandb/run-20251027_194226-sss54ci4/logs/debug-core.log"}
+{"time":"2025-10-27T19:42:27.266305585+08:00","level":"INFO","msg":"created new stream","id":"sss54ci4"}
+{"time":"2025-10-27T19:42:27.26658133+08:00","level":"INFO","msg":"stream: started","id":"sss54ci4"}
+{"time":"2025-10-27T19:42:27.2665942+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"sss54ci4"}
+{"time":"2025-10-27T19:42:27.266614409+08:00","level":"INFO","msg":"handler: started","stream_id":"sss54ci4"}
+{"time":"2025-10-27T19:42:27.266677138+08:00","level":"INFO","msg":"sender: started","stream_id":"sss54ci4"}
+{"time":"2025-10-27T19:42:27.830629916+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-27T22:11:11.629504316+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/nl_agent_learning/llamafactory/sss54ci4/file_stream\": unexpected EOF"}
+{"time":"2025-10-27T22:30:27.155027905+08:00","level":"INFO","msg":"stream: closing","id":"sss54ci4"}
+{"time":"2025-10-27T22:30:27.155114603+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-27T22:30:27.155945798+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-27T22:30:28.799979442+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-27T22:30:29.424720184+08:00","level":"INFO","msg":"handler: closed","stream_id":"sss54ci4"}
+{"time":"2025-10-27T22:30:29.424804122+08:00","level":"INFO","msg":"sender: closed","stream_id":"sss54ci4"}
+{"time":"2025-10-27T22:30:29.424796212+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sss54ci4"}
+{"time":"2025-10-27T22:30:29.425952122+08:00","level":"INFO","msg":"stream: closed","id":"sss54ci4"}
